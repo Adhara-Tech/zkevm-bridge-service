@@ -23,6 +23,7 @@ import (
 	"github.com/0xPolygonHermez/zkevm-node/etherman/smartcontracts/polygonzkevmbridge"
 	"github.com/0xPolygonHermez/zkevm-node/etherman/smartcontracts/polygonzkevmglobalexitroot"
 	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/ERC20"
+	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/NonERC20"
 	"github.com/0xPolygonHermez/zkevm-node/test/operations"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
@@ -752,6 +753,17 @@ func (m *Manager) DeployERC20(ctx context.Context, name, symbol string, network 
 	return client.DeployERC20(ctx, name, symbol, auth)
 }
 
+// DeployNonERC20 deploys erc20 smc
+func (m *Manager) DeployNonERC20(ctx context.Context, name, symbol string, network NetworkSID) (common.Address, *NonERC20.NonERC20, error) {
+	client := m.clients[network]
+	auth, err := client.GetSigner(ctx, accHexPrivateKeys[network])
+	if err != nil {
+		return common.Address{}, nil, err
+	}
+
+	return client.DeployNonERC20(ctx, name, symbol, auth)
+}
+
 // DeployBridgeMessageReceiver deploys the brdige message receiver smc.
 func (m *Manager) DeployBridgeMessageReceiver(ctx context.Context, network NetworkSID) (common.Address, error) {
 	client := m.clients[network]
@@ -782,6 +794,27 @@ func (m *Manager) MintERC20(ctx context.Context, erc20Addr common.Address, amoun
 	}
 
 	return client.MintERC20(ctx, erc20Addr, amount, auth)
+}
+
+// MintNonERC20 mint non-erc20 tokens
+func (m *Manager) MintNonERC20(ctx context.Context, erc20Addr common.Address, amount *big.Int, network NetworkSID) error {
+	client := m.clients[network]
+	auth, err := client.GetSigner(ctx, accHexPrivateKeys[network])
+	if err != nil {
+		return err
+	}
+
+	var bridgeAddress = l1BridgeAddr
+	if network == L2 {
+		bridgeAddress = l2BridgeAddr
+	}
+
+	err = client.ApproveNonERC20(ctx, erc20Addr, common.HexToAddress(bridgeAddress), amount, auth)
+	if err != nil {
+		return err
+	}
+
+	return client.MintNonERC20(ctx, erc20Addr, amount, auth)
 }
 
 // ApproveERC20 approves erc20 tokens

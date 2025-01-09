@@ -20,6 +20,7 @@ import (
 	"github.com/0xPolygonHermez/zkevm-node/etherman/smartcontracts/polygonzkevmbridge"
 	"github.com/0xPolygonHermez/zkevm-node/etherman/smartcontracts/polygonzkevmglobalexitroot"
 	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/ERC20"
+	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/NonERC20"
 	ops "github.com/0xPolygonHermez/zkevm-node/test/operations"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
@@ -130,6 +131,18 @@ func (c *Client) DeployERC20(ctx context.Context, name, symbol string, auth *bin
 	return addr, instance, err
 }
 
+// DeployNonERC20 deploys erc20 smc.
+func (c *Client) DeployNonERC20(ctx context.Context, name, symbol string, auth *bind.TransactOpts) (common.Address, *NonERC20.NonERC20, error) {
+	const txMinedTimeoutLimit = 60 * time.Second
+	addr, tx, instance, err := NonERC20.DeployNonERC20(auth, c.Client, name, symbol)
+	if err != nil {
+		return common.Address{}, nil, err
+	}
+	err = WaitTxToBeMined(ctx, c.Client, tx, txMinedTimeoutLimit)
+
+	return addr, instance, err
+}
+
 // DeployBridgeMessageReceiver deploys the brdige message receiver smc.
 func (c *Client) DeployBridgeMessageReceiver(ctx context.Context, auth *bind.TransactOpts) (common.Address, error) {
 	const txMinedTimeoutLimit = 60 * time.Second
@@ -156,9 +169,37 @@ func (c *Client) ApproveERC20(ctx context.Context, erc20Addr, spender common.Add
 	return WaitTxToBeMined(ctx, c.Client, tx, txMinedTimeoutLimit)
 }
 
+// ApproveNonERC20 approves nonerc20 tokens.
+func (c *Client) ApproveNonERC20(ctx context.Context, erc20Addr, spender common.Address, amount *big.Int, auth *bind.TransactOpts) error {
+	erc20sc, err := NonERC20.NewNonERC20(erc20Addr, c.Client)
+	if err != nil {
+		return err
+	}
+	tx, err := erc20sc.Approve(auth, spender, amount)
+	if err != nil {
+		return err
+	}
+	const txMinedTimeoutLimit = 60 * time.Second
+	return WaitTxToBeMined(ctx, c.Client, tx, txMinedTimeoutLimit)
+}
+
 // MintERC20 mint erc20 tokens.
 func (c *Client) MintERC20(ctx context.Context, erc20Addr common.Address, amount *big.Int, auth *bind.TransactOpts) error {
 	erc20sc, err := ERC20.NewERC20(erc20Addr, c.Client)
+	if err != nil {
+		return err
+	}
+	tx, err := erc20sc.Mint(auth, amount)
+	if err != nil {
+		return err
+	}
+	const txMinedTimeoutLimit = 60 * time.Second
+	return WaitTxToBeMined(ctx, c.Client, tx, txMinedTimeoutLimit)
+}
+
+// MintNonERC20 mint nonerc20 tokens.
+func (c *Client) MintNonERC20(ctx context.Context, erc20Addr common.Address, amount *big.Int, auth *bind.TransactOpts) error {
+	erc20sc, err := NonERC20.NewNonERC20(erc20Addr, c.Client)
 	if err != nil {
 		return err
 	}

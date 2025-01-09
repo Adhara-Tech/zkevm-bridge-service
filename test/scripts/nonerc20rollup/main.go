@@ -58,11 +58,11 @@ func main() {
 		amount:          big.NewInt(42069),
 	})
 
-	l1TokenAddr, _, err := opsman1.DeployERC20(ctx, "CREATED ON L1", "CL1", operations.L1)
+	l1TokenAddr, _, err := opsman1.DeployNonERC20(ctx, "CREATED ON L1", "CL1", operations.L1)
 	if err != nil {
     log.Fatal("Error: ", err)
   }
-	err = opsman1.MintERC20(ctx, l1TokenAddr, big.NewInt(999999999999999999), operations.L1)
+	err = opsman1.MintNonERC20(ctx, l1TokenAddr, big.NewInt(999999999999999999), operations.L1)
 	if err != nil {
     log.Fatal("Error: ", err)
   }
@@ -84,11 +84,11 @@ func main() {
 		amount:          big.NewInt(42069),
 	})
 
-	rollup1TokenAddr, _, err := opsman1.DeployERC20(ctx, "CREATED ON Rollup 1", "CR1", operations.L2)
+	rollup1TokenAddr, _, err := opsman1.DeployNonERC20(ctx, "CREATED ON Rollup 1", "CR1", operations.L2)
 	if err != nil {
     log.Fatal("Error: ", err)
   }
-	err = opsman1.MintERC20(ctx, rollup1TokenAddr, big.NewInt(999999999999999999), operations.L2)
+	err = opsman1.MintNonERC20(ctx, rollup1TokenAddr, big.NewInt(999999999999999999), operations.L2)
 	if err != nil {
     log.Fatal("Error: ", err)
   }
