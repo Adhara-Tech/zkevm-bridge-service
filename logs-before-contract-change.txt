@@ -1,0 +1,1220 @@
+zkevm-local-l1-network  | errexit         on
+zkevm-local-l1-network  | noglob          off
+zkevm-state-db          | The files belonging to this database system will be owned by user "postgres".
+zkevm-state-db          | This user must also own the server process.
+zkevm-state-db          | 
+zkevm-bridge-service    | 2025-01-17T08:19:01.132Z	[35mDEBUG[0m	deployclaimcompressor/main.go:81	{/pk/keystore.claimtxmanager testonly}	{"pid": 7, "version": "v0.1.0"}
+zkevm-bridge-service    | 2025-01-17T08:19:02.158Z	[31mERROR[0m	deployclaimcompressor/main.go:84	Error: Post "http://zkevm-node:8123": dial tcp: lookup zkevm-node on 127.0.0.11:53: server misbehaving
+zkevm-bridge-service    | /src/log/log.go:142 github.com/0xPolygonHermez/zkevm-bridge-service/log.appendStackTraceMaybeArgs()
+zkevm-bridge-service    | /src/log/log.go:217 github.com/0xPolygonHermez/zkevm-bridge-service/log.Error()
+zkevm-bridge-service    | /src/test/scripts/deployclaimcompressor/main.go:84 main.deploy()
+zkevm-bridge-service    | /go/pkg/mod/github.com/urfave/cli/v2@v2.27.4/command.go:276 github.com/urfave/cli/v2.(*Command).Run()
+zkevm-bridge-service    | /go/pkg/mod/github.com/urfave/cli/v2@v2.27.4/command.go:269 github.com/urfave/cli/v2.(*Command).Run()
+zkevm-bridge-service    | /go/pkg/mod/github.com/urfave/cli/v2@v2.27.4/app.go:333 github.com/urfave/cli/v2.(*App).RunContext()
+zkevm-bridge-service    | /go/pkg/mod/github.com/urfave/cli/v2@v2.27.4/app.go:307 github.com/urfave/cli/v2.(*App).Run()
+zkevm-pool-db           | The files belonging to this database system will be owned by user "postgres".
+zkevm-bridge-service    | /src/test/scripts/deployclaimcompressor/main.go:64 main.main()
+zkevm-bridge-service    | /usr/local/go/src/runtime/proc.go:267 runtime.main()
+zkevm-pool-db           | This user must also own the server process.
+zkevm-pool-db           | 
+zkevm-pool-db           | The database cluster will be initialized with locale "en_US.utf8".
+zkevm-prover            | {"level":"info","ts":"1737101930.269749","msg":"file2json() loading JSON file /usr/src/app/config.json","pid":"","tid":"05aac40","version":"v6.0.0"}
+zkevm-bridge-service    | 	{"pid": 7, "version": "v0.1.0"}
+zkevm-bridge-service    | main.deploy
+zkevm-pool-db           | The default database encoding has accordingly been set to "UTF8".
+zkevm-pool-db           | The default text search configuration will be set to "english".
+zkevm-bridge-service    | 	/src/test/scripts/deployclaimcompressor/main.go:84
+zkevm-bridge-service    | github.com/urfave/cli/v2.(*Command).Run
+zkevm-bridge-service    | 	/go/pkg/mod/github.com/urfave/cli/v2@v2.27.4/command.go:276
+zkevm-bridge-service    | github.com/urfave/cli/v2.(*Command).Run
+zkevm-node              | 2025-01-17T08:18:53.710Z	[35mDEBUG[0m	etherman/etherman.go:264	error rollupManager.RollupAddressToID(0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e). Error: %!w(*errors.errorString=&{no contract code at given address})	{"pid": 7, "version": "v0.6.6"}
+zkevm-state-db          | The database cluster will be initialized with locale "en_US.utf8".
+zkevm-node              | 2025-01-17T08:18:53.710Z	[31mFATAL[0m	cmd/approve.go:56	no contract code at given address
+zkevm-bridge-service    | 	/go/pkg/mod/github.com/urfave/cli/v2@v2.27.4/command.go:269
+zkevm-local-l1-network  | ignoreeof       off
+zkevm-local-l1-network  | monitor         off
+zkevm-prover            | 20250117_081850_269898 577ceda 05aac40 Version: v6.0.0
+zkevm-local-l1-network  | noexec          off
+zkevm-prover            | Checking error channel; ignore this trace
+zkevm-local-l1-network  | xtrace          on
+zkevm-local-l1-network  | verbose         off
+zkevm-local-l1-network  | noclobber       off
+zkevm-local-l1-network  | allexport       off
+zkevm-local-l1-network  | notify          off
+zkevm-local-l1-network  | nounset         on
+zkevm-local-l1-network  | errtrace        off
+zkevm-local-l1-network  | vi              off
+zkevm-pool-db           | 
+zkevm-node              | /src/log/log.go:142 github.com/0xPolygonHermez/zkevm-node/log.appendStackTraceMaybeArgs()
+zkevm-pool-db           | Data page checksums are disabled.
+zkevm-local-l1-network  | pipefail        off
+zkevm-state-db          | The default database encoding has accordingly been set to "UTF8".
+zkevm-state-db          | The default text search configuration will be set to "english".
+zkevm-state-db          | 
+zkevm-state-db          | Data page checksums are disabled.
+zkevm-state-db          | 
+zkevm-state-db          | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+zkevm-state-db          | creating subdirectories ... ok
+zkevm-state-db          | selecting dynamic shared memory implementation ... posix
+zkevm-state-db          | selecting default max_connections ... 100
+zkevm-state-db          | selecting default shared_buffers ... 128MB
+zkevm-state-db          | selecting default time zone ... Etc/UTC
+zkevm-state-db          | creating configuration files ... ok
+zkevm-state-db          | running bootstrap script ... ok
+zkevm-state-db          | performing post-bootstrap initialization ... ok
+zkevm-state-db          | syncing data to disk ... ok
+zkevm-state-db          | 
+zkevm-state-db          | 
+zkevm-state-db          | Success. You can now start the database server using:
+zkevm-state-db          | 
+zkevm-state-db          |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+zkevm-state-db          | 
+zkevm-state-db          | initdb: warning: enabling "trust" authentication for local connections
+zkevm-bridge-service    | github.com/urfave/cli/v2.(*App).RunContext
+zkevm-bridge-db         | The files belonging to this database system will be owned by user "postgres".
+zkevm-prover            | 20250117_081850_269914 577ceda 05aac40 zkWarning: Checking warning channel; ignore this trace
+zkevm-node              | /src/log/log.go:223 github.com/0xPolygonHermez/zkevm-node/log.Fatal()
+zkevm-bridge-service    | 	/go/pkg/mod/github.com/urfave/cli/v2@v2.27.4/app.go:333
+zkevm-prover            | 20250117_081850_269916 577ceda 05aac40 Config file: /usr/src/app/config.json
+zkevm-local-l1-network  | + geth --rpc.allow-unprotected-txs --http --http.addr 0.0.0.0 --http.corsdomain '*' --http.vhosts '*' --ws --ws.origins '*' --ws.addr 0.0.0.0 --dev --dev.period 1 --datadir /geth_data
+zkevm-prover            | 20250117_081850_270590 577ceda 05aac40 Number of cores=16
+zkevm-node              | /src/cmd/approve.go:56 main.approveTokens()
+zkevm-prover            | 20250117_081850_270651 577ceda 05aac40 IP address=172.18.0.6
+zkevm-node              | /go/pkg/mod/github.com/urfave/cli/v2@v2.26.0/command.go:277 github.com/urfave/cli/v2.(*Command).Run()
+zkevm-bridge-service    | github.com/urfave/cli/v2.(*App).Run
+zkevm-bridge-service    | 	/go/pkg/mod/github.com/urfave/cli/v2@v2.27.4/app.go:307
+zkevm-bridge-service    | main.main
+zkevm-bridge-service    | 	/src/test/scripts/deployclaimcompressor/main.go:64
+zkevm-bridge-service    | runtime.main
+zkevm-bridge-service    | 	/usr/local/go/src/runtime/proc.go:267
+zkevm-bridge-service    | 2025-01-17T08:19:02.159Z	[31mFATAL[0m	deployclaimcompressor/main.go:66	Post "http://zkevm-node:8123": dial tcp: lookup zkevm-node on 127.0.0.11:53: server misbehaving
+zkevm-bridge-service    | /src/log/log.go:142 github.com/0xPolygonHermez/zkevm-bridge-service/log.appendStackTraceMaybeArgs()
+zkevm-bridge-service    | /src/log/log.go:223 github.com/0xPolygonHermez/zkevm-bridge-service/log.Fatal()
+zkevm-bridge-service    | /src/test/scripts/deployclaimcompressor/main.go:66 main.main()
+zkevm-bridge-service    | /usr/local/go/src/runtime/proc.go:267 runtime.main()
+zkevm-bridge-service    | 	{"pid": 7, "version": "v0.1.0"}
+zkevm-bridge-service    | main.main
+zkevm-bridge-service    | 	/src/test/scripts/deployclaimcompressor/main.go:66
+zkevm-bridge-service    | runtime.main
+zkevm-bridge-service    | 	/usr/local/go/src/runtime/proc.go:267
+zkevm-bridge-db         | This user must also own the server process.
+zkevm-pool-db           | 
+zkevm-bridge-db         | 
+zkevm-bridge-db         | The database cluster will be initialized with locale "en_US.utf8".
+zkevm-bridge-db         | The default database encoding has accordingly been set to "UTF8".
+zkevm-pool-db           | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+zkevm-local-l1-network  | + nginx -g 'daemon off;'
+zkevm-pool-db           | creating subdirectories ... ok
+zkevm-pool-db           | selecting dynamic shared memory implementation ... posix
+zkevm-pool-db           | selecting default max_connections ... 100
+zkevm-pool-db           | selecting default shared_buffers ... 128MB
+zkevm-pool-db           | selecting default time zone ... Etc/UTC
+zkevm-pool-db           | creating configuration files ... ok
+zkevm-pool-db           | running bootstrap script ... ok
+zkevm-pool-db           | performing post-bootstrap initialization ... ok
+zkevm-pool-db           | initdb: warning: enabling "trust" authentication for local connections
+zkevm-pool-db           | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+zkevm-pool-db           | syncing data to disk ... ok
+zkevm-pool-db           | 
+zkevm-pool-db           | 
+zkevm-pool-db           | Success. You can now start the database server using:
+zkevm-pool-db           | 
+zkevm-pool-db           |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+zkevm-pool-db           | 
+zkevm-pool-db           | waiting for server to start....2025-01-17 08:18:46.443 UTC [48] LOG:  starting PostgreSQL 15.3 (Debian 15.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+zkevm-pool-db           | 2025-01-17 08:18:46.453 UTC [48] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+zkevm-pool-db           | 2025-01-17 08:18:46.498 UTC [51] LOG:  database system was shut down at 2025-01-17 08:18:44 UTC
+zkevm-pool-db           | 2025-01-17 08:18:46.521 UTC [48] LOG:  database system is ready to accept connections
+zkevm-pool-db           |  done
+zkevm-bridge-db         | The default text search configuration will be set to "english".
+zkevm-bridge-db         | 
+zkevm-bridge-db         | Data page checksums are disabled.
+zkevm-bridge-db         | 
+zkevm-bridge-db         | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+zkevm-bridge-db         | creating subdirectories ... ok
+zkevm-bridge-db         | selecting dynamic shared memory implementation ... posix
+zkevm-bridge-db         | selecting default max_connections ... 100
+zkevm-bridge-db         | selecting default shared_buffers ... 128MB
+zkevm-bridge-db         | selecting default time zone ... Etc/UTC
+zkevm-bridge-db         | creating configuration files ... ok
+zkevm-bridge-db         | running bootstrap script ... ok
+zkevm-bridge-db         | performing post-bootstrap initialization ... ok
+zkevm-prover            | 20250117_081850_270654 577ceda 05aac40 Configuration:
+zkevm-pool-db           | server started
+zkevm-node              | /go/pkg/mod/github.com/urfave/cli/v2@v2.26.0/command.go:270 github.com/urfave/cli/v2.(*Command).Run()
+zkevm-node              | /go/pkg/mod/github.com/urfave/cli/v2@v2.26.0/app.go:335 github.com/urfave/cli/v2.(*App).RunContext()
+zkevm-prover            | 20250117_081850_270655 577ceda 05aac40     proverID=577cedaa-f241-4b21-8197-a44434c3685a
+zkevm-local-l1-network  | INFO [01-17|08:18:44.876] Starting Geth in ephemeral dev mode...
+zkevm-local-l1-network  | WARN [01-17|08:18:44.876] You are running Geth in --dev mode. Please note the following:
+zkevm-pool-db           | CREATE DATABASE
+zkevm-prover            | 20250117_081850_270656 577ceda 05aac40     proverName=test-prover
+zkevm-pool-db           | 
+zkevm-prover            | 20250117_081850_270658 577ceda 05aac40     runExecutorServer=1
+zkevm-pool-db           | 
+zkevm-local-l1-network  | 
+zkevm-pool-db           | /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+zkevm-pool-db           | 
+zkevm-local-l1-network  |   1. This mode is only intended for fast, iterative development without assumptions on
+zkevm-local-l1-network  |      security or persistence.
+zkevm-local-l1-network  |   2. The database is created in memory unless specified otherwise. Therefore, shutting down
+zkevm-local-l1-network  |      your computer or losing power will wipe your entire block data and chain state for
+zkevm-pool-db           | waiting for server to shut down...2025-01-17 08:18:46.684 UTC [48] LOG:  received fast shutdown request
+zkevm-pool-db           | .2025-01-17 08:18:46.696 UTC [48] LOG:  aborting any active transactions
+zkevm-pool-db           | 2025-01-17 08:18:46.697 UTC [48] LOG:  background worker "logical replication launcher" (PID 54) exited with exit code 1
+zkevm-pool-db           | 2025-01-17 08:18:46.697 UTC [49] LOG:  shutting down
+zkevm-pool-db           | 2025-01-17 08:18:46.708 UTC [49] LOG:  checkpoint starting: shutdown immediate
+zkevm-prover            | 20250117_081850_270660 577ceda 05aac40     runHashDBServer=1
+zkevm-prover            | 20250117_081850_270662 577ceda 05aac40     runAggregatorClient=0
+zkevm-prover            | 20250117_081850_270664 577ceda 05aac40     runAggregatorClientMock=true
+zkevm-prover            | 20250117_081850_270665 577ceda 05aac40     executeInParallel=1
+zkevm-prover            | 20250117_081850_270667 577ceda 05aac40     useMainExecGenerated=1
+zkevm-prover            | 20250117_081850_270668 577ceda 05aac40     useMainExecC=0
+zkevm-prover            | 20250117_081850_270670 577ceda 05aac40     executorTimeStatistics=0
+zkevm-prover            | 20250117_081850_270673 577ceda 05aac40     saveOutputToFile=true
+zkevm-prover            | 20250117_081850_270674 577ceda 05aac40     saveProofToFile=true
+zkevm-prover            | 20250117_081850_270676 577ceda 05aac40     loadDBToMemCache=0
+zkevm-prover            | 20250117_081850_270678 577ceda 05aac40     logExecutorServerTxs=true
+zkevm-prover            | 20250117_081850_270680 577ceda 05aac40     executorServerPort=50071
+zkevm-prover            | 20250117_081850_270681 577ceda 05aac40     executorClientPort=50071
+zkevm-prover            | 20250117_081850_270683 577ceda 05aac40     executorClientHost=127.0.0.1
+zkevm-prover            | 20250117_081850_270685 577ceda 05aac40     executorClientLoops=1
+zkevm-prover            | 20250117_081850_270687 577ceda 05aac40     executorClientCheckNewStateRoot=0
+zkevm-prover            | 20250117_081850_270689 577ceda 05aac40     executorClientResetDB=0
+zkevm-prover            | 20250117_081850_270692 577ceda 05aac40     hashDBServerPort=50061
+zkevm-prover            | 20250117_081850_270693 577ceda 05aac40     hashDBURL=local
+zkevm-prover            | 20250117_081850_270695 577ceda 05aac40     hashDB64=0
+zkevm-prover            | 20250117_081850_270697 577ceda 05aac40     kvDBMaxVersions=131072
+zkevm-prover            | 20250117_081850_270699 577ceda 05aac40     dbCacheSynchURL=
+zkevm-prover            | 20250117_081850_270701 577ceda 05aac40     hashDBFileName=
+zkevm-prover            | 20250117_081850_270703 577ceda 05aac40     hashDBFileSize=128
+zkevm-prover            | 20250117_081850_270705 577ceda 05aac40     hastDBFolder=hashdb
+zkevm-prover            | 20250117_081850_270706 577ceda 05aac40     aggregatorServerPort=50081
+zkevm-prover            | 20250117_081850_270708 577ceda 05aac40     aggregatorClientPort=50081
+zkevm-prover            | 20250117_081850_270710 577ceda 05aac40     aggregatorClientHost=zkevm-node
+zkevm-prover            | 20250117_081850_270712 577ceda 05aac40     aggregatorClientMockTimeout=1
+zkevm-prover            | 20250117_081850_270714 577ceda 05aac40     aggregatorClientWatchdogTimeout=60000000
+zkevm-prover            | 20250117_081850_270716 577ceda 05aac40     aggregatorClientMaxStreams=0
+zkevm-prover            | 20250117_081850_270718 577ceda 05aac40     aggregatorClientMaxRecvMsgSize=1073741824
+zkevm-prover            | 20250117_081850_270720 577ceda 05aac40     inputFile=input_executor_0.json
+zkevm-pool-db           | 2025-01-17 08:18:46.958 UTC [49] LOG:  checkpoint complete: wrote 918 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.042 s, sync=0.166 s, total=0.262 s; sync files=250, longest=0.016 s, average=0.001 s; distance=4223 kB, estimate=4223 kB
+zkevm-pool-db           | 2025-01-17 08:18:46.963 UTC [48] LOG:  database system is shut down
+zkevm-pool-db           |  done
+zkevm-pool-db           | server stopped
+zkevm-pool-db           | 
+zkevm-pool-db           | PostgreSQL init process complete; ready for start up.
+zkevm-pool-db           | 
+zkevm-pool-db           | 2025-01-17 08:18:47.029 UTC [1] LOG:  starting PostgreSQL 15.3 (Debian 15.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+zkevm-pool-db           | 2025-01-17 08:18:47.029 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+zkevm-pool-db           | 2025-01-17 08:18:47.029 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+zkevm-pool-db           | 2025-01-17 08:18:47.059 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+zkevm-pool-db           | 2025-01-17 08:18:47.090 UTC [64] LOG:  database system was shut down at 2025-01-17 08:18:46 UTC
+zkevm-pool-db           | 2025-01-17 08:18:47.115 UTC [1] LOG:  database system is ready to accept connections
+zkevm-node              | /go/pkg/mod/github.com/urfave/cli/v2@v2.26.0/app.go:309 github.com/urfave/cli/v2.(*App).Run()
+zkevm-node              | /src/cmd/main.go:191 main.main()
+zkevm-node              | /usr/local/go/src/runtime/proc.go:267 runtime.main()
+zkevm-node              | 	{"pid": 7, "version": "v0.6.6"}
+zkevm-node              | main.approveTokens
+zkevm-node              | 	/src/cmd/approve.go:56
+zkevm-node              | github.com/urfave/cli/v2.(*Command).Run
+zkevm-node              | 	/go/pkg/mod/github.com/urfave/cli/v2@v2.26.0/command.go:277
+zkevm-node              | github.com/urfave/cli/v2.(*Command).Run
+zkevm-node              | 	/go/pkg/mod/github.com/urfave/cli/v2@v2.26.0/command.go:270
+zkevm-node              | github.com/urfave/cli/v2.(*App).RunContext
+zkevm-node              | 	/go/pkg/mod/github.com/urfave/cli/v2@v2.26.0/app.go:335
+zkevm-node              | github.com/urfave/cli/v2.(*App).Run
+zkevm-node              | 	/go/pkg/mod/github.com/urfave/cli/v2@v2.26.0/app.go:309
+zkevm-node              | main.main
+zkevm-node              | 	/src/cmd/main.go:191
+zkevm-node              | runtime.main
+zkevm-node              | 	/usr/local/go/src/runtime/proc.go:267
+zkevm-state-db          | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+zkevm-state-db          | waiting for server to start....2025-01-17 08:18:46.058 UTC [48] LOG:  starting PostgreSQL 15.3 (Debian 15.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+zkevm-prover            | 20250117_081850_270722 577ceda 05aac40     inputFile2=input_executor_1.json
+zkevm-prover            | 20250117_081850_270724 577ceda 05aac40     outputPath=output
+zkevm-prover            | 20250117_081850_270726 577ceda 05aac40     configPath=config
+zkevm-prover            | 20250117_081850_270727 577ceda 05aac40     zkevmCmPols=
+zkevm-prover            | 20250117_081850_270729 577ceda 05aac40     c12aCmPols=
+zkevm-prover            | 20250117_081850_270731 577ceda 05aac40     recursive1CmPols=
+zkevm-prover            | 20250117_081850_270733 577ceda 05aac40     zkevmConstPols=config/zkevm/zkevm.const
+zkevm-prover            | 20250117_081850_270735 577ceda 05aac40     c12aConstPols=config/c12a/c12a.const
+zkevm-prover            | 20250117_081850_270736 577ceda 05aac40     mapConstPolsFile=0
+zkevm-prover            | 20250117_081850_270738 577ceda 05aac40     zkevmConstantsTree=config/zkevm/zkevm.consttree
+zkevm-prover            | 20250117_081850_270740 577ceda 05aac40     c12aConstantsTree=config/c12a/c12a.consttree
+zkevm-prover            | 20250117_081850_270742 577ceda 05aac40     mapConstantsTreeFile=0
+zkevm-prover            | 20250117_081850_270744 577ceda 05aac40     finalVerkey=config/final/final.fflonk.verkey.json
+zkevm-prover            | 20250117_081850_270745 577ceda 05aac40     zkevmVerifier=config/zkevm/zkevm.verifier.dat
+zkevm-local-l1-network  |      your dev environment.
+zkevm-local-l1-network  |   3. A random, pre-allocated developer account will be available and unlocked as
+zkevm-local-l1-network  |      eth.coinbase, which can be used for testing. The random dev account is temporary,
+zkevm-local-l1-network  |      stored on a ramdisk, and will be lost if your machine is restarted.
+zkevm-local-l1-network  |   4. Mining is enabled by default. However, the client will only seal blocks if transactions
+zkevm-local-l1-network  |      are pending in the mempool. The miner's minimum accepted gas price is 1.
+zkevm-local-l1-network  |   5. Networking is disabled; there is no listen-address, the maximum number of peers is set
+zkevm-local-l1-network  |      to 0, and discovery is disabled.
+zkevm-local-l1-network  | 
+zkevm-local-l1-network  | INFO [01-17|08:18:44.878] Maximum peer count                       ETH=50 total=50
+zkevm-local-l1-network  | INFO [01-17|08:18:44.879] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+zkevm-local-l1-network  | INFO [01-17|08:18:44.881] Set global gas cap                       cap=50,000,000
+zkevm-local-l1-network  | INFO [01-17|08:18:45.001] Using developer account                  address=0x1B6bfD7104031996E0ba936734E311637A1e14F4
+zkevm-local-l1-network  | INFO [01-17|08:18:45.002] Defaulting to pebble as the backing database
+zkevm-local-l1-network  | INFO [01-17|08:18:45.002] Allocated cache and file handles         database=/geth_data/geth/chaindata cache=512.00MiB handles=524,288
+zkevm-local-l1-network  | INFO [01-17|08:18:45.221] Opened ancient database                  database=/geth_data/geth/chaindata/ancient/chain readonly=false
+zkevm-local-l1-network  | INFO [01-17|08:18:45.221] Freezer shutting down
+zkevm-local-l1-network  | INFO [01-17|08:18:45.252] Initializing the KZG library             backend=gokzg
+zkevm-local-l1-network  | INFO [01-17|08:18:45.268] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+zkevm-local-l1-network  | INFO [01-17|08:18:45.268] Using pebble as the backing database
+zkevm-local-l1-network  | INFO [01-17|08:18:45.268] Allocated cache and file handles         database=/geth_data/geth/chaindata cache=512.00MiB handles=524,288
+zkevm-local-l1-network  | INFO [01-17|08:18:45.381] Opened ancient database                  database=/geth_data/geth/chaindata/ancient/chain readonly=false
+zkevm-local-l1-network  | INFO [01-17|08:18:45.381] State schema set to default              scheme=hash
+zkevm-local-l1-network  | INFO [01-17|08:18:45.381] Initialising Ethereum protocol           network=1337 dbversion=<nil>
+zkevm-local-l1-network  | INFO [01-17|08:18:45.391] Writing custom genesis block
+zkevm-local-l1-network  | INFO [01-17|08:18:45.402] Persisted trie from memory database      nodes=12 size=1.83KiB time=10.597961ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=0 livesize=0.00B
+zkevm-state-db          | 2025-01-17 08:18:46.069 UTC [48] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] 
+zkevm-state-db          | 2025-01-17 08:18:46.107 UTC [51] LOG:  database system was shut down at 2025-01-17 08:18:44 UTC
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] Chain ID:  1337 (unknown)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] Consensus: unknown
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] 
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] Pre-Merge hard forks (block based):
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Arrow Glacier:               #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Gray Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] 
+zkevm-prover            | 20250117_081850_270747 577ceda 05aac40     zkevmVerkey=config/zkevm/zkevm.verkey.json
+zkevm-bridge-db         | syncing data to disk ... ok
+zkevm-prover            | 20250117_081850_270749 577ceda 05aac40     c12aVerkey=config/c12a/c12a.verkey.json
+zkevm-bridge-db         | 
+zkevm-bridge-db         | initdb: warning: enabling "trust" authentication for local connections
+zkevm-bridge-db         | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+zkevm-bridge-db         | 
+zkevm-bridge-db         | Success. You can now start the database server using:
+zkevm-bridge-db         | 
+zkevm-bridge-db         |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+zkevm-bridge-db         | 
+zkevm-state-db          | 2025-01-17 08:18:46.137 UTC [48] LOG:  database system is ready to accept connections
+zkevm-state-db          |  done
+zkevm-state-db          | server started
+zkevm-state-db          | CREATE DATABASE
+zkevm-state-db          | 
+zkevm-state-db          | 
+zkevm-state-db          | /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/init.sql
+zkevm-state-db          | CREATE DATABASE
+zkevm-state-db          | You are now connected to database "prover_db" as user "state_user".
+zkevm-state-db          | CREATE SCHEMA
+zkevm-state-db          | CREATE TABLE
+zkevm-state-db          | CREATE TABLE
+zkevm-state-db          | CREATE ROLE
+zkevm-state-db          | ALTER DATABASE
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] Merge configured:
+zkevm-state-db          | ALTER SCHEMA
+zkevm-state-db          | ALTER SCHEMA
+zkevm-bridge-db         | waiting for server to start....2025-01-17 08:18:45.608 UTC [48] LOG:  starting PostgreSQL 15.3 (Debian 15.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+zkevm-bridge-db         | 2025-01-17 08:18:45.620 UTC [48] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+zkevm-bridge-db         | 2025-01-17 08:18:45.649 UTC [51] LOG:  database system was shut down at 2025-01-17 08:18:43 UTC
+zkevm-bridge-db         | 2025-01-17 08:18:45.682 UTC [48] LOG:  database system is ready to accept connections
+zkevm-bridge-db         |  done
+zkevm-bridge-db         | server started
+zkevm-bridge-db         | CREATE DATABASE
+zkevm-bridge-db         | 
+zkevm-bridge-db         | 
+zkevm-bridge-db         | /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+zkevm-bridge-db         | 
+zkevm-bridge-db         | waiting for server to shut down...2025-01-17 08:18:45.865 UTC [48] LOG:  received fast shutdown request
+zkevm-bridge-db         | .2025-01-17 08:18:45.875 UTC [48] LOG:  aborting any active transactions
+zkevm-bridge-db         | 2025-01-17 08:18:45.877 UTC [48] LOG:  background worker "logical replication launcher" (PID 54) exited with exit code 1
+zkevm-bridge-db         | 2025-01-17 08:18:45.877 UTC [49] LOG:  shutting down
+zkevm-bridge-db         | 2025-01-17 08:18:45.885 UTC [49] LOG:  checkpoint starting: shutdown immediate
+zkevm-bridge-db         | 2025-01-17 08:18:46.228 UTC [49] LOG:  checkpoint complete: wrote 918 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.036 s, sync=0.269 s, total=0.351 s; sync files=250, longest=0.013 s, average=0.002 s; distance=4223 kB, estimate=4223 kB
+zkevm-bridge-db         | 2025-01-17 08:18:46.233 UTC [48] LOG:  database system is shut down
+zkevm-prover            | 20250117_081850_270751 577ceda 05aac40     recursive1Verifier=config/recursive1/recursive1.verifier.dat
+zkevm-prover            | 20250117_081850_270753 577ceda 05aac40     recursive1Verkey=config/recursive1/recursive1.verkey.json
+zkevm-prover            | 20250117_081850_270755 577ceda 05aac40     recursive2Verifier=config/recursive2/recursive2.verifier.dat
+zkevm-prover            | 20250117_081850_270757 577ceda 05aac40     recursive2Verkey=config/recursive2/recursive2.verkey.json
+zkevm-prover            | 20250117_081850_270759 577ceda 05aac40     recursivefVerifier=config/recursivef/recursivef.verifier.dat
+zkevm-prover            | 20250117_081850_270761 577ceda 05aac40     recursivefVerkey=config/recursivef/recursivef.verkey.json
+zkevm-prover            | 20250117_081850_270763 577ceda 05aac40     finalVerifier=config/final/final.verifier.dat
+zkevm-prover            | 20250117_081850_270765 577ceda 05aac40     finalStarkZkey=config/final/final.fflonk.zkey
+zkevm-prover            | 20250117_081850_270767 577ceda 05aac40     publicsOutput=public.json
+zkevm-prover            | 20250117_081850_270769 577ceda 05aac40     proofFile=proof.json
+zkevm-prover            | 20250117_081850_270770 577ceda 05aac40     keccakScriptFile=config/scripts/keccak_script.json
+zkevm-prover            | 20250117_081850_270772 577ceda 05aac40     sha256ScriptFile=config/scripts/sha256_script.json
+zkevm-prover            | 20250117_081850_270774 577ceda 05aac40     keccakPolsFile=keccak_pols.json
+zkevm-prover            | 20250117_081850_270776 577ceda 05aac40     sha256PolsFile=sha256_connections.json
+zkevm-prover            | 20250117_081850_270778 577ceda 05aac40     keccakConnectionsFile=keccak_connections.json
+zkevm-prover            | 20250117_081850_270780 577ceda 05aac40     storageRomFile=config/scripts/storage_sm_rom.json
+zkevm-prover            | 20250117_081850_270781 577ceda 05aac40     zkevmStarkInfo=config/zkevm/zkevm.starkinfo.json
+zkevm-prover            | 20250117_081850_270783 577ceda 05aac40     c12aStarkInfo=config/c12a/c12a.starkinfo.json
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Network known to be merged: true
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Total terminal difficulty:  0
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] 
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] Post-Merge hard forks (timestamp based):
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505]  - Shanghai:                    @0          (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md)
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] 
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] 
+zkevm-local-l1-network  | INFO [01-17|08:18:45.505] Loaded most recent local block           number=0 hash=bf9e38..b20de3 td=1 age=55y10mo5d
+zkevm-local-l1-network  | WARN [01-17|08:18:45.505] Failed to load snapshot                  err="missing or corrupted snapshot"
+zkevm-local-l1-network  | INFO [01-17|08:18:45.525] Rebuilding state snapshot
+zkevm-local-l1-network  | INFO [01-17|08:18:45.536] Initialized transaction indexer          range="last 2350000 blocks"
+zkevm-local-l1-network  | INFO [01-17|08:18:45.536] Resuming state snapshot generation       root=0c2bee..e13d07 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=10.990ms
+zkevm-local-l1-network  | INFO [01-17|08:18:45.536] Regenerated local transaction journal    transactions=0 accounts=0
+zkevm-local-l1-network  | INFO [01-17|08:18:45.547] Chain post-merge, sync via beacon client
+zkevm-local-l1-network  | INFO [01-17|08:18:45.547] Unprotected transactions allowed
+zkevm-local-l1-network  | INFO [01-17|08:18:45.547] Gasprice oracle is ignoring threshold set threshold=2
+zkevm-local-l1-network  | INFO [01-17|08:18:45.547] Generated state snapshot                 accounts=10 slots=0 storage=412.00B dangling=0 elapsed=21.448ms
+zkevm-local-l1-network  | INFO [01-17|08:18:45.569] Entered PoS stage
+zkevm-local-l1-network  | INFO [01-17|08:18:45.579] Starting peer-to-peer node               instance=Geth/v1.13.11-stable-8f7eb9cc/linux-amd64/go1.21.6
+zkevm-local-l1-network  | WARN [01-17|08:18:45.579] P2P server will be useless, neither dialing nor listening
+zkevm-local-l1-network  | INFO [01-17|08:18:45.670] IPC endpoint opened                      url=/geth_data/geth.ipc
+zkevm-prover            | 20250117_081850_270785 577ceda 05aac40     databaseURL=postg...
+zkevm-bridge-db         |  done
+zkevm-prover            | 20250117_081850_270787 577ceda 05aac40     dbNodesTableName=state.nodes
+zkevm-prover            | 20250117_081850_270789 577ceda 05aac40     dbProgramTableName=state.program
+zkevm-bridge-db         | server stopped
+zkevm-prover            | 20250117_081850_270791 577ceda 05aac40     dbMultiWrite=1
+zkevm-bridge-db         | 
+zkevm-prover            | 20250117_081850_270792 577ceda 05aac40     dbMultiWriteSingleQuerySize=20971520
+zkevm-bridge-db         | PostgreSQL init process complete; ready for start up.
+zkevm-prover            | 20250117_081850_270794 577ceda 05aac40     dbConnectionsPool=1
+zkevm-bridge-db         | 
+zkevm-prover            | 20250117_081850_270796 577ceda 05aac40     dbNumberOfPoolConnections=30
+zkevm-bridge-db         | 2025-01-17 08:18:46.308 UTC [1] LOG:  starting PostgreSQL 15.3 (Debian 15.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+zkevm-bridge-db         | 2025-01-17 08:18:46.308 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+zkevm-bridge-db         | 2025-01-17 08:18:46.308 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+zkevm-bridge-db         | 2025-01-17 08:18:46.330 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+zkevm-bridge-db         | 2025-01-17 08:18:46.364 UTC [64] LOG:  database system was shut down at 2025-01-17 08:18:46 UTC
+zkevm-bridge-db         | 2025-01-17 08:18:46.383 UTC [1] LOG:  database system is ready to accept connections
+zkevm-local-l1-network  | INFO [01-17|08:18:45.671] New local node record                    seq=1,737,101,925,668 id=06cb4d705f6fa1c3 ip=127.0.0.1 udp=0 tcp=0
+zkevm-local-l1-network  | INFO [01-17|08:18:45.671] Started P2P networking                   self=enode://0c687a1688410e08d0d31c9b0d20539321d5d8985a135fa3d44081c69f600bbdd3c084193fc6e881ae24f2679d293563eb6c468e8b989958dffb1a617a3a6548@127.0.0.1:0
+zkevm-local-l1-network  | INFO [01-17|08:18:45.671] HTTP server started                      endpoint=[::]:8545 auth=false prefix= cors=* vhosts=*
+zkevm-local-l1-network  | INFO [01-17|08:18:45.671] WebSocket enabled                        url=ws://[::]:8546
+zkevm-local-l1-network  | INFO [01-17|08:18:45.691] Starting work on payload                 id=0x02cb336d2b4eb502
+zkevm-local-l1-network  | INFO [01-17|08:18:45.691] Updated payload                          id=0x02cb336d2b4eb502 number=1 hash=87873f..8a0c82 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="19.425µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:45.691] Stopping work on payload                 id=0x02cb336d2b4eb502 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:18:45.707] Imported new potential chain segment     number=1 hash=87873f..8a0c82 blocks=1 txs=0 mgas=0.000 elapsed=16.320ms   mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:45.717] Chain head was updated                   number=1 hash=87873f..8a0c82 root=0c2bee..e13d07 elapsed=9.972734ms
+zkevm-local-l1-network  | INFO [01-17|08:18:45.732] Indexed transactions                     blocks=2 txs=0 tail=0 elapsed=15.001ms
+zkevm-local-l1-network  | INFO [01-17|08:18:46.736] Starting work on payload                 id=0x02072542fde757c4
+zkevm-local-l1-network  | INFO [01-17|08:18:46.736] Updated payload                          id=0x02072542fde757c4 number=2 hash=e9e102..585cd4 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="17.569µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:46.736] Stopping work on payload                 id=0x02072542fde757c4 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:18:46.752] Imported new potential chain segment     number=2 hash=e9e102..585cd4 blocks=1 txs=0 mgas=0.000 elapsed=15.174ms   mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:46.772] Chain head was updated                   number=2 hash=e9e102..585cd4 root=0c2bee..e13d07 elapsed=19.886535ms
+zkevm-local-l1-network  | INFO [01-17|08:18:47.804] Starting work on payload                 id=0x025398d744945931
+zkevm-local-l1-network  | INFO [01-17|08:18:47.804] Updated payload                          id=0x025398d744945931 number=3 hash=04afec..8092fb txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="90.824µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:47.805] Stopping work on payload                 id=0x025398d744945931 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:18:47.814] Imported new potential chain segment     number=3 hash=04afec..8092fb blocks=1 txs=0 mgas=0.000 elapsed=9.915ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:47.824] Chain head was updated                   number=3 hash=04afec..8092fb root=0c2bee..e13d07 elapsed=9.285666ms
+zkevm-local-l1-network  | INFO [01-17|08:18:48.853] Starting work on payload                 id=0x0253b7181eb4bf94
+zkevm-local-l1-network  | INFO [01-17|08:18:48.853] Updated payload                          id=0x0253b7181eb4bf94 number=4 hash=1417d6..8c8c38 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="68.639µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:48.853] Stopping work on payload                 id=0x0253b7181eb4bf94 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:18:48.863] Imported new potential chain segment     number=4 hash=1417d6..8c8c38 blocks=1 txs=0 mgas=0.000 elapsed=9.764ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:48.873] Chain head was updated                   number=4 hash=1417d6..8c8c38 root=0c2bee..e13d07 elapsed=9.379491ms
+zkevm-local-l1-network  | INFO [01-17|08:18:49.892] Starting work on payload                 id=0x02008d9a5fe2a744
+zkevm-local-l1-network  | INFO [01-17|08:18:49.892] Updated payload                          id=0x02008d9a5fe2a744 number=5 hash=442b30..b66691 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="15.006µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:49.893] Stopping work on payload                 id=0x02008d9a5fe2a744 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:18:49.901] Imported new potential chain segment     number=5 hash=442b30..b66691 blocks=1 txs=0 mgas=0.000 elapsed=8.642ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:49.910] Chain head was updated                   number=5 hash=442b30..b66691 root=0c2bee..e13d07 elapsed=8.725816ms
+zkevm-local-l1-network  | INFO [01-17|08:18:50.937] Starting work on payload                 id=0x0289f9ff6c9291f2
+zkevm-local-l1-network  | INFO [01-17|08:18:50.937] Updated payload                          id=0x0289f9ff6c9291f2 number=6 hash=d3b4b2..3abcd2 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="26.657µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:50.937] Stopping work on payload                 id=0x0289f9ff6c9291f2 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:18:50.946] Imported new potential chain segment     number=6 hash=d3b4b2..3abcd2 blocks=1 txs=0 mgas=0.000 elapsed=8.679ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:50.955] Chain head was updated                   number=6 hash=d3b4b2..3abcd2 root=0c2bee..e13d07 elapsed=8.900859ms
+zkevm-local-l1-network  | INFO [01-17|08:18:51.981] Starting work on payload                 id=0x026b4bf185991fe7
+zkevm-local-l1-network  | INFO [01-17|08:18:51.981] Updated payload                          id=0x026b4bf185991fe7 number=7 hash=418e59..d95744 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="62.249µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:51.981] Stopping work on payload                 id=0x026b4bf185991fe7 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:18:51.990] Imported new potential chain segment     number=7 hash=418e59..d95744 blocks=1 txs=0 mgas=0.000 elapsed=8.704ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:51.999] Chain head was updated                   number=7 hash=418e59..d95744 root=0c2bee..e13d07 elapsed=8.716243ms
+zkevm-local-l1-network  | INFO [01-17|08:18:53.027] Starting work on payload                 id=0x025afc91d284eca0
+zkevm-local-l1-network  | INFO [01-17|08:18:53.027] Updated payload                          id=0x025afc91d284eca0 number=8 hash=77f8ce..60fc22 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="62.108µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:53.027] Stopping work on payload                 id=0x025afc91d284eca0 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:18:53.037] Imported new potential chain segment     number=8 hash=77f8ce..60fc22 blocks=1 txs=0 mgas=0.000 elapsed=9.506ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:53.046] Chain head was updated                   number=8 hash=77f8ce..60fc22 root=0c2bee..e13d07 elapsed=8.980569ms
+zkevm-local-l1-network  | INFO [01-17|08:18:54.066] Starting work on payload                 id=0x02c13923b5cf8983
+zkevm-local-l1-network  | INFO [01-17|08:18:54.066] Updated payload                          id=0x02c13923b5cf8983 number=9 hash=33aa54..a627bd txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="55.554µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:54.067] Stopping work on payload                 id=0x02c13923b5cf8983 reason=delivery
+zkevm-prover            | 20250117_081850_270798 577ceda 05aac40     dbMetrics=1
+zkevm-prover            | 20250117_081850_270800 577ceda 05aac40     dbClearCache=0
+zkevm-prover            | 20250117_081850_270802 577ceda 05aac40     dbGetTree=1
+zkevm-prover            | 20250117_081850_270804 577ceda 05aac40     dbReadOnly=0
+zkevm-prover            | 20250117_081850_270806 577ceda 05aac40     dbReadRetryCounter=10
+zkevm-prover            | 20250117_081850_270807 577ceda 05aac40     dbReadRetryDelay=100000
+zkevm-prover            | 20250117_081850_270809 577ceda 05aac40     stateManager=1
+zkevm-prover            | 20250117_081850_270811 577ceda 05aac40     stateManagerPurge=1
+zkevm-prover            | 20250117_081850_270814 577ceda 05aac40     cleanerPollingPeriod=600
+zkevm-prover            | 20250117_081850_270816 577ceda 05aac40     requestsPersistence=3600
+zkevm-prover            | 20250117_081850_270818 577ceda 05aac40     maxExecutorThreads=20
+zkevm-prover            | 20250117_081850_270821 577ceda 05aac40     maxProverThreads=8
+zkevm-prover            | 20250117_081850_270822 577ceda 05aac40     maxHashDBThreads=8
+zkevm-prover            | 20250117_081850_270824 577ceda 05aac40     dbMTCacheSize=1024
+zkevm-prover            | 20250117_081850_270826 577ceda 05aac40     useAssociativeCache=0
+zkevm-prover            | 20250117_081850_270829 577ceda 05aac40     log2DbMTAssociativeCacheSize=25
+zkevm-prover            | 20250117_081850_270831 577ceda 05aac40     log2DbMTAssociativeCacheIndexesSize=28
+zkevm-prover            | 20250117_081850_270832 577ceda 05aac40     log2DbKVAssociativeCacheSize=25
+zkevm-prover            | 20250117_081850_270834 577ceda 05aac40     log2DbKVAssociativeCacheIndexesSize=28
+zkevm-prover            | 20250117_081850_270836 577ceda 05aac40     log2DbVersionsAssociativeCacheSize=25
+zkevm-prover            | 20250117_081850_270838 577ceda 05aac40     log2DbVersionsAssociativeCacheIndexesSize=28
+zkevm-prover            | 20250117_081850_270840 577ceda 05aac40     dbProgramCacheSize=512
+zkevm-prover            | 20250117_081850_270842 577ceda 05aac40     loadDBToMemTimeout=30000000
+zkevm-prover            | 20250117_081850_270843 577ceda 05aac40     fullTracerTraceReserveSize=262144
+zkevm-prover            | 20250117_081850_270845 577ceda 05aac40     ECRecoverPrecalc=0
+zkevm-prover            | 20250117_081850_270847 577ceda 05aac40     ECRecoverPrecalcNThreads=4
+zkevm-prover            | 20250117_081850_270854 577ceda 05aac40 --> WHOLE_PROCESS starting...
+zkevm-prover            | 20250117_081850_272060 577ceda 05aac40 --> DB_INIT_REMOTE starting...
+zkevm-prover            | 20250117_081850_272144 577ceda fe00640 dbSenderThread() started
+zkevm-prover            | 20250117_081850_454148 577ceda 05aac40 Database::writeGetTreeFunction() returns ZKR_SUCCESS
+zkevm-prover            | 20250117_081850_458286 577ceda 05aac40 <-- DB_INIT_REMOTE done: 0.186224 s
+zkevm-local-l1-network  | INFO [01-17|08:18:54.077] Imported new potential chain segment     number=9 hash=33aa54..a627bd blocks=1 txs=0 mgas=0.000 elapsed=10.074ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:54.087] Chain head was updated                   number=9 hash=33aa54..a627bd root=0c2bee..e13d07 elapsed=10.011304ms
+zkevm-local-l1-network  | INFO [01-17|08:18:55.115] Starting work on payload                 id=0x02dfbc44cc2e794d
+zkevm-local-l1-network  | INFO [01-17|08:18:55.115] Updated payload                          id=0x02dfbc44cc2e794d number=10 hash=bc5547..f64feb txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="59.233µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:55.116] Stopping work on payload                 id=0x02dfbc44cc2e794d reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:18:55.126] Imported new potential chain segment     number=10 hash=bc5547..f64feb blocks=1 txs=0 mgas=0.000 elapsed=9.795ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:55.135] Chain head was updated                   number=10 hash=bc5547..f64feb root=0c2bee..e13d07 elapsed=9.549131ms
+zkevm-local-l1-network  | INFO [01-17|08:18:56.164] Starting work on payload                 id=0x02309269ee0563e1
+zkevm-local-l1-network  | INFO [01-17|08:18:56.164] Updated payload                          id=0x02309269ee0563e1 number=11 hash=7f015b..733c86 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="52.874µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:56.165] Stopping work on payload                 id=0x02309269ee0563e1 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:18:56.174] Imported new potential chain segment     number=11 hash=7f015b..733c86 blocks=1 txs=0 mgas=0.000 elapsed=9.924ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:56.184] Chain head was updated                   number=11 hash=7f015b..733c86 root=0c2bee..e13d07 elapsed=9.33484ms
+zkevm-local-l1-network  | INFO [01-17|08:18:57.212] Starting work on payload                 id=0x02b4ee8b83f2cdb2
+zkevm-local-l1-network  | INFO [01-17|08:18:57.212] Updated payload                          id=0x02b4ee8b83f2cdb2 number=12 hash=e42018..d8245b txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="49.435µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:57.212] Stopping work on payload                 id=0x02b4ee8b83f2cdb2 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:18:57.222] Imported new potential chain segment     number=12 hash=e42018..d8245b blocks=1 txs=0 mgas=0.000 elapsed=9.946ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:57.232] Chain head was updated                   number=12 hash=e42018..d8245b root=0c2bee..e13d07 elapsed=9.776764ms
+zkevm-local-l1-network  | INFO [01-17|08:18:58.261] Starting work on payload                 id=0x02bd8d8f2746bc66
+zkevm-local-l1-network  | INFO [01-17|08:18:58.261] Updated payload                          id=0x02bd8d8f2746bc66 number=13 hash=94f3e6..be3a1a txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="72.105µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:58.262] Stopping work on payload                 id=0x02bd8d8f2746bc66 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:18:58.272] Imported new potential chain segment     number=13 hash=94f3e6..be3a1a blocks=1 txs=0 mgas=0.000 elapsed=10.136ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:58.282] Chain head was updated                   number=13 hash=94f3e6..be3a1a root=0c2bee..e13d07 elapsed=10.083193ms
+zkevm-local-l1-network  | INFO [01-17|08:18:59.311] Starting work on payload                 id=0x029ebadbe66ed643
+zkevm-local-l1-network  | INFO [01-17|08:18:59.311] Updated payload                          id=0x029ebadbe66ed643 number=14 hash=06ee21..ca00ff txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="87.613µs"
+zkevm-local-l1-network  | INFO [01-17|08:18:59.312] Stopping work on payload                 id=0x029ebadbe66ed643 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:18:59.322] Imported new potential chain segment     number=14 hash=06ee21..ca00ff blocks=1 txs=0 mgas=0.000 elapsed=9.879ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:18:59.331] Chain head was updated                   number=14 hash=06ee21..ca00ff root=0c2bee..e13d07 elapsed=9.323874ms
+zkevm-local-l1-network  | INFO [01-17|08:19:00.360] Starting work on payload                 id=0x020742cfcd0b61d6
+zkevm-state-db          | ALTER TABLE
+zkevm-state-db          | ALTER TABLE
+zkevm-state-db          | ALTER ROLE
+zkevm-state-db          | 
+zkevm-state-db          | 
+zkevm-state-db          | waiting for server to shut down....2025-01-17 08:18:46.524 UTC [48] LOG:  received fast shutdown request
+zkevm-state-db          | 2025-01-17 08:18:46.541 UTC [48] LOG:  aborting any active transactions
+zkevm-state-db          | 2025-01-17 08:18:46.542 UTC [48] LOG:  background worker "logical replication launcher" (PID 54) exited with exit code 1
+zkevm-state-db          | 2025-01-17 08:18:46.542 UTC [49] LOG:  shutting down
+zkevm-state-db          | 2025-01-17 08:18:46.551 UTC [49] LOG:  checkpoint starting: shutdown immediate
+zkevm-state-db          | 2025-01-17 08:18:47.012 UTC [49] LOG:  checkpoint complete: wrote 1843 buffers (11.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.032 s, sync=0.392 s, total=0.470 s; sync files=504, longest=0.009 s, average=0.001 s; distance=8480 kB, estimate=8480 kB
+zkevm-state-db          | 2025-01-17 08:18:47.017 UTC [48] LOG:  database system is shut down
+zkevm-state-db          |  done
+zkevm-state-db          | server stopped
+zkevm-state-db          | 
+zkevm-state-db          | PostgreSQL init process complete; ready for start up.
+zkevm-state-db          | 
+zkevm-state-db          | 2025-01-17 08:18:47.089 UTC [1] LOG:  starting PostgreSQL 15.3 (Debian 15.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+zkevm-state-db          | 2025-01-17 08:18:47.089 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+zkevm-state-db          | 2025-01-17 08:18:47.089 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+zkevm-state-db          | 2025-01-17 08:18:47.119 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+zkevm-state-db          | 2025-01-17 08:18:47.153 UTC [67] LOG:  database system was shut down at 2025-01-17 08:18:46 UTC
+zkevm-state-db          | 2025-01-17 08:18:47.200 UTC [1] LOG:  database system is ready to accept connections
+zkevm-prover            | 20250117_081850_458298 577ceda 05aac40 --> GOLDILOCKS_PRECOMPUTED_INIT starting...
+zkevm-prover            | 20250117_081850_846270 577ceda 05aac40 <-- GOLDILOCKS_PRECOMPUTED_INIT done: 0.387955 s
+zkevm-prover            | 20250117_081850_847733 577ceda 05aac40 --> PROVER_CONSTRUCTOR starting...
+zkevm-prover            | 20250117_081850_847759 577ceda 05aac40 --> ROM_LOAD starting...
+zkevm-prover            | 20250117_081850_847762 577ceda 05aac40 file2json() loading JSON file src/main_sm/fork_1/scripts/rom.json
+zkevm-prover            | 20250117_081850_868953 577ceda 05aac40 ROM size: 4925 lines
+zkevm-prover            | 20250117_081850_925680 577ceda 05aac40 <-- ROM_LOAD done: 0.077916 s
+zkevm-local-l1-network  | INFO [01-17|08:19:00.360] Updated payload                          id=0x020742cfcd0b61d6 number=15 hash=33f81a..450e15 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="52.398µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:00.360] Stopping work on payload                 id=0x020742cfcd0b61d6 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:00.370] Imported new potential chain segment     number=15 hash=33f81a..450e15 blocks=1 txs=0 mgas=0.000 elapsed=10.059ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:00.381] Chain head was updated                   number=15 hash=33f81a..450e15 root=0c2bee..e13d07 elapsed=10.146406ms
+zkevm-prover            | 20250117_081850_929379 577ceda 05aac40 --> ROM_LOAD starting...
+zkevm-prover            | 20250117_081850_929389 577ceda 05aac40 file2json() loading JSON file src/main_sm/fork_2/scripts/rom.json
+zkevm-prover            | 20250117_081850_941903 577ceda 05aac40 ROM size: 4944 lines
+zkevm-prover            | 20250117_081850_990752 577ceda 05aac40 <-- ROM_LOAD done: 0.061370 s
+zkevm-prover            | 20250117_081850_994506 577ceda 05aac40 --> ROM_LOAD starting...
+zkevm-prover            | 20250117_081850_994511 577ceda 05aac40 file2json() loading JSON file src/main_sm/fork_3/scripts/rom.json
+zkevm-prover            | 20250117_081851_007275 577ceda 05aac40 ROM size: 5014 lines
+zkevm-prover            | 20250117_081851_057120 577ceda 05aac40 <-- ROM_LOAD done: 0.062611 s
+zkevm-prover            | 20250117_081851_060563 577ceda 05aac40 --> ROM_LOAD starting...
+zkevm-prover            | 20250117_081851_060567 577ceda 05aac40 file2json() loading JSON file src/main_sm/fork_4/scripts/rom.json
+zkevm-prover            | 20250117_081851_073165 577ceda 05aac40 ROM size: 5017 lines
+zkevm-prover            | 20250117_081851_121183 577ceda 05aac40 <-- ROM_LOAD done: 0.060618 s
+zkevm-prover            | 20250117_081851_124496 577ceda 05aac40 --> ROM_LOAD starting...
+zkevm-prover            | 20250117_081851_124500 577ceda 05aac40 file2json() loading JSON file src/main_sm/fork_5/scripts/rom.json
+zkevm-prover            | 20250117_081851_136963 577ceda 05aac40 ROM size: 5045 lines
+zkevm-prover            | 20250117_081851_184847 577ceda 05aac40 <-- ROM_LOAD done: 0.060349 s
+zkevm-prover            | 20250117_081851_188227 577ceda 05aac40 --> ROM_LOAD starting...
+zkevm-prover            | 20250117_081851_188231 577ceda 05aac40 file2json() loading JSON file src/main_sm/fork_6/scripts/rom.json
+zkevm-prover            | 20250117_081851_200742 577ceda 05aac40 ROM size: 5049 lines
+zkevm-local-l1-network  | INFO [01-17|08:19:01.408] Starting work on payload                 id=0x02f1ecd956c5b9cd
+zkevm-local-l1-network  | INFO [01-17|08:19:01.408] Updated payload                          id=0x02f1ecd956c5b9cd number=16 hash=ef8243..4d0ff9 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="14.302µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:01.408] Stopping work on payload                 id=0x02f1ecd956c5b9cd reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:01.417] Imported new potential chain segment     number=16 hash=ef8243..4d0ff9 blocks=1 txs=0 mgas=0.000 elapsed=9.209ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:01.426] Chain head was updated                   number=16 hash=ef8243..4d0ff9 root=0c2bee..e13d07 elapsed=9.17582ms
+zkevm-local-l1-network  | INFO [01-17|08:19:02.447] Starting work on payload                 id=0x029dce496c0913ee
+zkevm-local-l1-network  | INFO [01-17|08:19:02.447] Updated payload                          id=0x029dce496c0913ee number=17 hash=51df31..8f0cc9 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="73.848µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:02.447] Stopping work on payload                 id=0x029dce496c0913ee reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:02.457] Imported new potential chain segment     number=17 hash=51df31..8f0cc9 blocks=1 txs=0 mgas=0.000 elapsed=9.739ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:02.466] Chain head was updated                   number=17 hash=51df31..8f0cc9 root=0c2bee..e13d07 elapsed=9.365133ms
+zkevm-local-l1-network  | INFO [01-17|08:19:03.495] Starting work on payload                 id=0x024c7178b805dce9
+zkevm-local-l1-network  | INFO [01-17|08:19:03.495] Updated payload                          id=0x024c7178b805dce9 number=18 hash=3d0ca7..d8ef2c txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="47.263µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:03.495] Stopping work on payload                 id=0x024c7178b805dce9 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:03.505] Imported new potential chain segment     number=18 hash=3d0ca7..d8ef2c blocks=1 txs=0 mgas=0.000 elapsed=9.536ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:03.514] Chain head was updated                   number=18 hash=3d0ca7..d8ef2c root=0c2bee..e13d07 elapsed=9.578829ms
+zkevm-local-l1-network  | INFO [01-17|08:19:04.544] Starting work on payload                 id=0x02c8fab02567aaa2
+zkevm-local-l1-network  | INFO [01-17|08:19:04.544] Updated payload                          id=0x02c8fab02567aaa2 number=19 hash=e7cf92..8b6b50 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="142.696µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:04.544] Stopping work on payload                 id=0x02c8fab02567aaa2 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:04.554] Imported new potential chain segment     number=19 hash=e7cf92..8b6b50 blocks=1 txs=0 mgas=0.000 elapsed=9.838ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:04.563] Chain head was updated                   number=19 hash=e7cf92..8b6b50 root=0c2bee..e13d07 elapsed=9.283164ms
+zkevm-local-l1-network  | INFO [01-17|08:19:05.593] Starting work on payload                 id=0x020e8d9c72f3a57b
+zkevm-local-l1-network  | INFO [01-17|08:19:05.593] Updated payload                          id=0x020e8d9c72f3a57b number=20 hash=d4c44c..d5f3d9 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="55.019µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:05.593] Stopping work on payload                 id=0x020e8d9c72f3a57b reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:05.603] Imported new potential chain segment     number=20 hash=d4c44c..d5f3d9 blocks=1 txs=0 mgas=0.000 elapsed=9.855ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:05.613] Chain head was updated                   number=20 hash=d4c44c..d5f3d9 root=0c2bee..e13d07 elapsed=9.961766ms
+zkevm-local-l1-network  | INFO [01-17|08:19:06.642] Starting work on payload                 id=0x0258cd25b5c45ec4
+zkevm-prover            | 20250117_081851_248720 577ceda 05aac40 <-- ROM_LOAD done: 0.060491 s
+zkevm-prover            | 20250117_081851_251983 577ceda 05aac40 --> ROM_LOAD starting...
+zkevm-prover            | 20250117_081851_251986 577ceda 05aac40 file2json() loading JSON file src/main_sm/fork_7/scripts/rom.json
+zkevm-prover            | 20250117_081851_291970 577ceda 05aac40 ROM size: 13179 lines
+zkevm-prover            | 20250117_081851_425387 577ceda 05aac40 <-- ROM_LOAD done: 0.173400 s
+zkevm-prover            | 20250117_081851_438619 577ceda 05aac40 --> ROM_LOAD starting...
+zkevm-prover            | 20250117_081851_438628 577ceda 05aac40 file2json() loading JSON file src/main_sm/fork_8/scripts/rom.json
+zkevm-prover            | 20250117_081851_472884 577ceda 05aac40 ROM size: 13260 lines
+zkevm-prover            | 20250117_081851_611278 577ceda 05aac40 <-- ROM_LOAD done: 0.172655 s
+zkevm-prover            | 20250117_081851_626197 577ceda 05aac40 --> ROM_LOAD starting...
+zkevm-prover            | 20250117_081851_626209 577ceda 05aac40 file2json() loading JSON file src/main_sm/fork_9/scripts/rom.json
+zkevm-prover            | 20250117_081851_660263 577ceda 05aac40 ROM size: 13268 lines
+zkevm-prover            | 20250117_081851_794600 577ceda 05aac40 <-- ROM_LOAD done: 0.168400 s
+zkevm-prover            | 20250117_081851_807441 577ceda 05aac40 file2json() loading JSON file config/scripts/storage_sm_rom.json
+zkevm-prover            | 20250117_081851_809281 577ceda 05aac40 --> BINARY_EXECUTOR starting...
+zkevm-prover            | 20250117_081851_809288 577ceda 05aac40 --> BINARY_BUILD_FACTORS starting...
+zkevm-prover            | 20250117_081851_960818 577ceda 05aac40 <-- BINARY_BUILD_FACTORS done: 0.151510 s
+zkevm-prover            | 20250117_081851_960892 577ceda 05aac40 --> BINARY_BUILD_RESET starting...
+zkevm-prover            | 20250117_081852_014642 577ceda 05aac40 <-- BINARY_BUILD_RESET done: 0.053734 s
+zkevm-prover            | 20250117_081852_014708 577ceda 05aac40 <-- BINARY_EXECUTOR done: 0.205428 s
+zkevm-prover            | 20250117_081852_014758 577ceda 05aac40 <-- PROVER_CONSTRUCTOR done: 1.167026 s
+zkevm-prover            | 20250117_081852_014769 577ceda 05aac40 Launching HashDB server thread...
+zkevm-prover            | 20250117_081852_014844 577ceda 05aac40 Launching executor server thread...
+zkevm-prover            | 20250117_081852_015254 577ceda 05aac40 Launching aggregator client mock thread...
+zkevm-prover            | AggregatorClientMock::runThread() creating aggregatorClientThread
+zkevm-prover            | aggregatorClientMockThread() started
+zkevm-prover            | 20250117_081852_015519 577ceda 9200640 Executor server listening on 0.0.0.0:50071
+zkevm-prover            | 20250117_081852_015548 577ceda 9c00640 HashDB server listening on 0.0.0.0:50061
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-local-l1-network  | INFO [01-17|08:19:06.642] Updated payload                          id=0x0258cd25b5c45ec4 number=21 hash=0997e4..762a17 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="88.079µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:06.643] Stopping work on payload                 id=0x0258cd25b5c45ec4 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:06.653] Imported new potential chain segment     number=21 hash=0997e4..762a17 blocks=1 txs=0 mgas=0.000 elapsed=10.053ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:06.662] Chain head was updated                   number=21 hash=0997e4..762a17 root=0c2bee..e13d07 elapsed=9.568198ms
+zkevm-local-l1-network  | INFO [01-17|08:19:07.691] Starting work on payload                 id=0x0241e850f731630b
+zkevm-local-l1-network  | INFO [01-17|08:19:07.692] Updated payload                          id=0x0241e850f731630b number=22 hash=dadbb3..e134b9 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="707.165µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:07.692] Stopping work on payload                 id=0x0241e850f731630b reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:07.702] Imported new potential chain segment     number=22 hash=dadbb3..e134b9 blocks=1 txs=0 mgas=0.000 elapsed=9.390ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:07.712] Chain head was updated                   number=22 hash=dadbb3..e134b9 root=0c2bee..e13d07 elapsed=9.549958ms
+zkevm-local-l1-network  | INFO [01-17|08:19:08.740] Starting work on payload                 id=0x028ad4d319eb8a9a
+zkevm-local-l1-network  | INFO [01-17|08:19:08.740] Updated payload                          id=0x028ad4d319eb8a9a number=23 hash=73e486..85d8f0 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="24.262µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:08.740] Stopping work on payload                 id=0x028ad4d319eb8a9a reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:08.749] Imported new potential chain segment     number=23 hash=73e486..85d8f0 blocks=1 txs=0 mgas=0.000 elapsed=8.845ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:08.758] Chain head was updated                   number=23 hash=73e486..85d8f0 root=0c2bee..e13d07 elapsed=8.933814ms
+zkevm-local-l1-network  | INFO [01-17|08:19:09.786] Starting work on payload                 id=0x026cb22aebcedbca
+zkevm-local-l1-network  | INFO [01-17|08:19:09.786] Updated payload                          id=0x026cb22aebcedbca number=24 hash=31c00e..b2bd51 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="58.781µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:09.787] Stopping work on payload                 id=0x026cb22aebcedbca reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:09.796] Imported new potential chain segment     number=24 hash=31c00e..b2bd51 blocks=1 txs=0 mgas=0.000 elapsed=9.202ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:09.805] Chain head was updated                   number=24 hash=31c00e..b2bd51 root=0c2bee..e13d07 elapsed=9.061041ms
+zkevm-local-l1-network  | INFO [01-17|08:19:10.833] Starting work on payload                 id=0x02833bbbb990a852
+zkevm-local-l1-network  | INFO [01-17|08:19:10.833] Updated payload                          id=0x02833bbbb990a852 number=25 hash=41a009..14f547 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="32.839µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:10.833] Stopping work on payload                 id=0x02833bbbb990a852 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:10.842] Imported new potential chain segment     number=25 hash=41a009..14f547 blocks=1 txs=0 mgas=0.000 elapsed=8.898ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:10.851] Chain head was updated                   number=25 hash=41a009..14f547 root=0c2bee..e13d07 elapsed=8.696836ms
+zkevm-local-l1-network  | INFO [01-17|08:19:11.880] Starting work on payload                 id=0x0246300381cebbf3
+zkevm-local-l1-network  | INFO [01-17|08:19:11.880] Updated payload                          id=0x0246300381cebbf3 number=26 hash=e01bb8..e454f6 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="143.85µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:11.880] Stopping work on payload                 id=0x0246300381cebbf3 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:11.891] Imported new potential chain segment     number=26 hash=e01bb8..e454f6 blocks=1 txs=0 mgas=0.000 elapsed=10.148ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:11.901] Chain head was updated                   number=26 hash=e01bb8..e454f6 root=0c2bee..e13d07 elapsed=10.0288ms
+zkevm-local-l1-network  | INFO [01-17|08:19:12.930] Starting work on payload                 id=0x02fdd7aff102c69a
+zkevm-local-l1-network  | INFO [01-17|08:19:12.930] Updated payload                          id=0x02fdd7aff102c69a number=27 hash=52f81e..9681eb txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="81.791µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:12.930] Stopping work on payload                 id=0x02fdd7aff102c69a reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:12.940] Imported new potential chain segment     number=27 hash=52f81e..9681eb blocks=1 txs=0 mgas=0.000 elapsed=9.528ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:12.949] Chain head was updated                   number=27 hash=52f81e..9681eb root=0c2bee..e13d07 elapsed=9.405366ms
+zkevm-local-l1-network  | INFO [01-17|08:19:13.970] Starting work on payload                 id=0x0288c71a541f6cda
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-local-l1-network  | INFO [01-17|08:19:13.970] Updated payload                          id=0x0288c71a541f6cda number=28 hash=7b53f3..857af7 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="93.434µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:13.970] Stopping work on payload                 id=0x0288c71a541f6cda reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:13.980] Imported new potential chain segment     number=28 hash=7b53f3..857af7 blocks=1 txs=0 mgas=0.000 elapsed=9.535ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:13.989] Chain head was updated                   number=28 hash=7b53f3..857af7 root=0c2bee..e13d07 elapsed=9.131087ms
+zkevm-local-l1-network  | INFO [01-17|08:19:15.017] Starting work on payload                 id=0x029535176bca302e
+zkevm-local-l1-network  | INFO [01-17|08:19:15.017] Updated payload                          id=0x029535176bca302e number=29 hash=6e82c9..fefac2 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="21.646µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:15.017] Stopping work on payload                 id=0x029535176bca302e reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:15.027] Imported new potential chain segment     number=29 hash=6e82c9..fefac2 blocks=1 txs=0 mgas=0.000 elapsed=9.142ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:15.036] Chain head was updated                   number=29 hash=6e82c9..fefac2 root=0c2bee..e13d07 elapsed=9.265157ms
+zkevm-local-l1-network  | INFO [01-17|08:19:16.062] Starting work on payload                 id=0x0295d4e2c4ffbfe7
+zkevm-local-l1-network  | INFO [01-17|08:19:16.063] Updated payload                          id=0x0295d4e2c4ffbfe7 number=30 hash=1db868..de81fa txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="13.861µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:16.063] Stopping work on payload                 id=0x0295d4e2c4ffbfe7 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:16.071] Imported new potential chain segment     number=30 hash=1db868..de81fa blocks=1 txs=0 mgas=0.000 elapsed=8.725ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:16.080] Chain head was updated                   number=30 hash=1db868..de81fa root=0c2bee..e13d07 elapsed=8.984028ms
+zkevm-local-l1-network  | INFO [01-17|08:19:17.108] Starting work on payload                 id=0x02448d3ceea892ef
+zkevm-local-l1-network  | INFO [01-17|08:19:17.108] Updated payload                          id=0x02448d3ceea892ef number=31 hash=4badc9..624d86 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="114.789µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:17.108] Stopping work on payload                 id=0x02448d3ceea892ef reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:17.118] Imported new potential chain segment     number=31 hash=4badc9..624d86 blocks=1 txs=0 mgas=0.000 elapsed=9.567ms     mgasps=0.000 triedirty=0.00B
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-local-l1-network  | INFO [01-17|08:19:17.127] Chain head was updated                   number=31 hash=4badc9..624d86 root=0c2bee..e13d07 elapsed=9.455775ms
+zkevm-local-l1-network  | INFO [01-17|08:19:18.156] Starting work on payload                 id=0x029f2ff961700d1a
+zkevm-local-l1-network  | INFO [01-17|08:19:18.156] Updated payload                          id=0x029f2ff961700d1a number=32 hash=525e37..271062 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="62.348µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:18.156] Stopping work on payload                 id=0x029f2ff961700d1a reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:18.166] Imported new potential chain segment     number=32 hash=525e37..271062 blocks=1 txs=0 mgas=0.000 elapsed=9.664ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:18.174] Chain head was updated                   number=32 hash=525e37..271062 root=0c2bee..e13d07 elapsed=8.764129ms
+zkevm-local-l1-network  | INFO [01-17|08:19:19.203] Starting work on payload                 id=0x02f44a077f4ff500
+zkevm-local-l1-network  | INFO [01-17|08:19:19.203] Updated payload                          id=0x02f44a077f4ff500 number=33 hash=968647..ca14a3 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="91.296µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:19.203] Stopping work on payload                 id=0x02f44a077f4ff500 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:19.213] Imported new potential chain segment     number=33 hash=968647..ca14a3 blocks=1 txs=0 mgas=0.000 elapsed=9.727ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:19.223] Chain head was updated                   number=33 hash=968647..ca14a3 root=0c2bee..e13d07 elapsed=9.749249ms
+zkevm-local-l1-network  | INFO [01-17|08:19:20.250] Starting work on payload                 id=0x0262e094d393477b
+zkevm-local-l1-network  | INFO [01-17|08:19:20.250] Updated payload                          id=0x0262e094d393477b number=34 hash=84f2cb..99ab1a txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="31.061µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:20.250] Stopping work on payload                 id=0x0262e094d393477b reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:20.259] Imported new potential chain segment     number=34 hash=84f2cb..99ab1a blocks=1 txs=0 mgas=0.000 elapsed=9.067ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:20.268] Chain head was updated                   number=34 hash=84f2cb..99ab1a root=0c2bee..e13d07 elapsed=9.215655ms
+zkevm-local-l1-network  | INFO [01-17|08:19:21.295] Starting work on payload                 id=0x021f88e785239ec8
+zkevm-local-l1-network  | INFO [01-17|08:19:21.295] Updated payload                          id=0x021f88e785239ec8 number=35 hash=c72940..90c383 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="13.945µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:21.295] Stopping work on payload                 id=0x021f88e785239ec8 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:21.304] Imported new potential chain segment     number=35 hash=c72940..90c383 blocks=1 txs=0 mgas=0.000 elapsed=9.084ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:21.313] Chain head was updated                   number=35 hash=c72940..90c383 root=0c2bee..e13d07 elapsed=9.125667ms
+zkevm-local-l1-network  | INFO [01-17|08:19:22.341] Starting work on payload                 id=0x02e81b064a5ef3c2
+zkevm-local-l1-network  | INFO [01-17|08:19:22.341] Updated payload                          id=0x02e81b064a5ef3c2 number=36 hash=865709..0873d9 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="16.994µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:22.341] Stopping work on payload                 id=0x02e81b064a5ef3c2 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:22.350] Imported new potential chain segment     number=36 hash=865709..0873d9 blocks=1 txs=0 mgas=0.000 elapsed=8.916ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:22.359] Chain head was updated                   number=36 hash=865709..0873d9 root=0c2bee..e13d07 elapsed=9.137902ms
+zkevm-local-l1-network  | INFO [01-17|08:19:23.388] Starting work on payload                 id=0x026a7ed0b6a4b83e
+zkevm-local-l1-network  | INFO [01-17|08:19:23.388] Updated payload                          id=0x026a7ed0b6a4b83e number=37 hash=01a324..869843 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="48.83µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:23.388] Stopping work on payload                 id=0x026a7ed0b6a4b83e reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:23.398] Imported new potential chain segment     number=37 hash=01a324..869843 blocks=1 txs=0 mgas=0.000 elapsed=9.695ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:23.407] Chain head was updated                   number=37 hash=01a324..869843 root=0c2bee..e13d07 elapsed=9.576255ms
+zkevm-local-l1-network  | INFO [01-17|08:19:24.435] Starting work on payload                 id=0x0229f63fef60a6fb
+zkevm-local-l1-network  | INFO [01-17|08:19:24.435] Updated payload                          id=0x0229f63fef60a6fb number=38 hash=6cb1c1..e7137f txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="63.786µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:24.436] Stopping work on payload                 id=0x0229f63fef60a6fb reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:24.445] Imported new potential chain segment     number=38 hash=6cb1c1..e7137f blocks=1 txs=0 mgas=0.000 elapsed=9.306ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:24.455] Chain head was updated                   number=38 hash=6cb1c1..e7137f root=0c2bee..e13d07 elapsed=9.51337ms
+zkevm-local-l1-network  | INFO [01-17|08:19:25.482] Starting work on payload                 id=0x025c1e746cf2a958
+zkevm-local-l1-network  | INFO [01-17|08:19:25.482] Updated payload                          id=0x025c1e746cf2a958 number=39 hash=043620..388cb1 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="21.458µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:25.482] Stopping work on payload                 id=0x025c1e746cf2a958 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:25.492] Imported new potential chain segment     number=39 hash=043620..388cb1 blocks=1 txs=0 mgas=0.000 elapsed=9.321ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:25.501] Chain head was updated                   number=39 hash=043620..388cb1 root=0c2bee..e13d07 elapsed=9.150574ms
+zkevm-local-l1-network  | INFO [01-17|08:19:26.529] Starting work on payload                 id=0x02a0460196339617
+zkevm-local-l1-network  | INFO [01-17|08:19:26.529] Updated payload                          id=0x02a0460196339617 number=40 hash=a615ec..460ba6 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="61.232µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:26.529] Stopping work on payload                 id=0x02a0460196339617 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:26.539] Imported new potential chain segment     number=40 hash=a615ec..460ba6 blocks=1 txs=0 mgas=0.000 elapsed=9.505ms     mgasps=0.000 triedirty=0.00B
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-prover            | aggregatorClientMockThread() failed calling readerWriter->Read(&aggregatorMessage)
+zkevm-prover            | aggregatorClientMockThread() channel broken; will retry in 5 seconds
+zkevm-local-l1-network  | INFO [01-17|08:19:26.548] Chain head was updated                   number=40 hash=a615ec..460ba6 root=0c2bee..e13d07 elapsed=9.363789ms
+zkevm-local-l1-network  | INFO [01-17|08:19:27.577] Starting work on payload                 id=0x021565f9e398a052
+zkevm-local-l1-network  | INFO [01-17|08:19:27.578] Updated payload                          id=0x021565f9e398a052 number=41 hash=b49f8b..60c3dd txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="59.249µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:27.578] Stopping work on payload                 id=0x021565f9e398a052 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:27.588] Imported new potential chain segment     number=41 hash=b49f8b..60c3dd blocks=1 txs=0 mgas=0.000 elapsed=9.985ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:27.597] Chain head was updated                   number=41 hash=b49f8b..60c3dd root=0c2bee..e13d07 elapsed=9.533976ms
+zkevm-local-l1-network  | INFO [01-17|08:19:28.625] Starting work on payload                 id=0x02f101ae16827039
+zkevm-local-l1-network  | INFO [01-17|08:19:28.625] Updated payload                          id=0x02f101ae16827039 number=42 hash=f4dc3f..8f853f txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="103.736µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:28.625] Stopping work on payload                 id=0x02f101ae16827039 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:28.635] Imported new potential chain segment     number=42 hash=f4dc3f..8f853f blocks=1 txs=0 mgas=0.000 elapsed=9.480ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:28.644] Chain head was updated                   number=42 hash=f4dc3f..8f853f root=0c2bee..e13d07 elapsed=9.155052ms
+zkevm-local-l1-network  | INFO [01-17|08:19:29.673] Starting work on payload                 id=0x02568f0a53de1604
+zkevm-local-l1-network  | INFO [01-17|08:19:29.673] Updated payload                          id=0x02568f0a53de1604 number=43 hash=57773b..6e3668 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="60.627µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:29.673] Stopping work on payload                 id=0x02568f0a53de1604 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:29.683] Imported new potential chain segment     number=43 hash=57773b..6e3668 blocks=1 txs=0 mgas=0.000 elapsed=9.921ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:29.693] Chain head was updated                   number=43 hash=57773b..6e3668 root=0c2bee..e13d07 elapsed=10.059636ms
+zkevm-local-l1-network  | INFO [01-17|08:19:30.721] Starting work on payload                 id=0x023a83741a859608
+zkevm-local-l1-network  | INFO [01-17|08:19:30.721] Updated payload                          id=0x023a83741a859608 number=44 hash=37bb7f..2ef84d txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="27.916µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:30.721] Stopping work on payload                 id=0x023a83741a859608 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:30.731] Imported new potential chain segment     number=44 hash=37bb7f..2ef84d blocks=1 txs=0 mgas=0.000 elapsed=9.355ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:30.740] Chain head was updated                   number=44 hash=37bb7f..2ef84d root=0c2bee..e13d07 elapsed=9.171602ms
+zkevm-local-l1-network  | INFO [01-17|08:19:31.768] Starting work on payload                 id=0x026c7968035016ef
+zkevm-local-l1-network  | INFO [01-17|08:19:31.768] Updated payload                          id=0x026c7968035016ef number=45 hash=636ae1..cce6f3 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="14.665µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:31.768] Stopping work on payload                 id=0x026c7968035016ef reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:31.777] Imported new potential chain segment     number=45 hash=636ae1..cce6f3 blocks=1 txs=0 mgas=0.000 elapsed=9.043ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:31.786] Chain head was updated                   number=45 hash=636ae1..cce6f3 root=0c2bee..e13d07 elapsed=9.337283ms
+zkevm-local-l1-network  | INFO [01-17|08:19:32.814] Starting work on payload                 id=0x026f639a6143d7d5
+zkevm-local-l1-network  | INFO [01-17|08:19:32.814] Updated payload                          id=0x026f639a6143d7d5 number=46 hash=c1e75a..8df1a3 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="48.448µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:32.814] Stopping work on payload                 id=0x026f639a6143d7d5 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:32.823] Imported new potential chain segment     number=46 hash=c1e75a..8df1a3 blocks=1 txs=0 mgas=0.000 elapsed=8.908ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:32.833] Chain head was updated                   number=46 hash=c1e75a..8df1a3 root=0c2bee..e13d07 elapsed=9.522274ms
+zkevm-local-l1-network  | INFO [01-17|08:19:33.860] Starting work on payload                 id=0x023133ad1ec6b1f9
+zkevm-local-l1-network  | INFO [01-17|08:19:33.860] Updated payload                          id=0x023133ad1ec6b1f9 number=47 hash=706fd1..ff0d91 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="18.72µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:33.860] Stopping work on payload                 id=0x023133ad1ec6b1f9 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:33.869] Imported new potential chain segment     number=47 hash=706fd1..ff0d91 blocks=1 txs=0 mgas=0.000 elapsed=9.035ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:33.878] Chain head was updated                   number=47 hash=706fd1..ff0d91 root=0c2bee..e13d07 elapsed=8.865532ms
+zkevm-local-l1-network  | INFO [01-17|08:19:34.905] Starting work on payload                 id=0x024fccfd5d8fed5a
+zkevm-local-l1-network  | INFO [01-17|08:19:34.905] Updated payload                          id=0x024fccfd5d8fed5a number=48 hash=939967..eff9df txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="66.701µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:34.906] Stopping work on payload                 id=0x024fccfd5d8fed5a reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:34.915] Imported new potential chain segment     number=48 hash=939967..eff9df blocks=1 txs=0 mgas=0.000 elapsed=9.499ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:34.924] Chain head was updated                   number=48 hash=939967..eff9df root=0c2bee..e13d07 elapsed=9.046664ms
+zkevm-local-l1-network  | INFO [01-17|08:19:35.951] Starting work on payload                 id=0x026b599e535fefaa
+zkevm-local-l1-network  | INFO [01-17|08:19:35.951] Updated payload                          id=0x026b599e535fefaa number=49 hash=a2569c..a4e565 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="13.474µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:35.952] Stopping work on payload                 id=0x026b599e535fefaa reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:35.961] Imported new potential chain segment     number=49 hash=a2569c..a4e565 blocks=1 txs=0 mgas=0.000 elapsed=8.977ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:35.970] Chain head was updated                   number=49 hash=a2569c..a4e565 root=0c2bee..e13d07 elapsed=8.97197ms
+zkevm-local-l1-network  | INFO [01-17|08:19:36.989] Starting work on payload                 id=0x02b16d4e8416a4e9
+zkevm-local-l1-network  | INFO [01-17|08:19:36.989] Updated payload                          id=0x02b16d4e8416a4e9 number=50 hash=cfa78b..19dab3 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="32.563µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:36.989] Stopping work on payload                 id=0x02b16d4e8416a4e9 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:36.998] Imported new potential chain segment     number=50 hash=cfa78b..19dab3 blocks=1 txs=0 mgas=0.000 elapsed=9.019ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:37.007] Chain head was updated                   number=50 hash=cfa78b..19dab3 root=0c2bee..e13d07 elapsed=8.906446ms
+zkevm-local-l1-network  | INFO [01-17|08:19:38.036] Starting work on payload                 id=0x0298cc3f053bcf7a
+zkevm-local-l1-network  | INFO [01-17|08:19:38.036] Updated payload                          id=0x0298cc3f053bcf7a number=51 hash=00dd19..49829d txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="85.893µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:38.036] Stopping work on payload                 id=0x0298cc3f053bcf7a reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:38.046] Imported new potential chain segment     number=51 hash=00dd19..49829d blocks=1 txs=0 mgas=0.000 elapsed=10.005ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:38.057] Chain head was updated                   number=51 hash=00dd19..49829d root=0c2bee..e13d07 elapsed=10.034876ms
+zkevm-local-l1-network  | INFO [01-17|08:19:39.086] Starting work on payload                 id=0x02f731ce1d6a9596
+zkevm-local-l1-network  | INFO [01-17|08:19:39.086] Updated payload                          id=0x02f731ce1d6a9596 number=52 hash=b1b14a..a42d15 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="73.656µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:39.086] Stopping work on payload                 id=0x02f731ce1d6a9596 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:39.096] Imported new potential chain segment     number=52 hash=b1b14a..a42d15 blocks=1 txs=0 mgas=0.000 elapsed=9.814ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:39.105] Chain head was updated                   number=52 hash=b1b14a..a42d15 root=0c2bee..e13d07 elapsed=9.448863ms
+zkevm-local-l1-network  | INFO [01-17|08:19:40.135] Starting work on payload                 id=0x021ae14183aada9c
+zkevm-local-l1-network  | INFO [01-17|08:19:40.136] Updated payload                          id=0x021ae14183aada9c number=53 hash=46db21..a29181 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="102.56µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:40.136] Stopping work on payload                 id=0x021ae14183aada9c reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:40.146] Imported new potential chain segment     number=53 hash=46db21..a29181 blocks=1 txs=0 mgas=0.000 elapsed=9.802ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:40.156] Chain head was updated                   number=53 hash=46db21..a29181 root=0c2bee..e13d07 elapsed=9.757352ms
+zkevm-local-l1-network  | INFO [01-17|08:19:41.186] Starting work on payload                 id=0x02fc8f2320536d78
+zkevm-local-l1-network  | INFO [01-17|08:19:41.186] Updated payload                          id=0x02fc8f2320536d78 number=54 hash=411ef6..bcb581 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="74.49µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:41.186] Stopping work on payload                 id=0x02fc8f2320536d78 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:41.196] Imported new potential chain segment     number=54 hash=411ef6..bcb581 blocks=1 txs=0 mgas=0.000 elapsed=9.751ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:41.206] Chain head was updated                   number=54 hash=411ef6..bcb581 root=0c2bee..e13d07 elapsed=9.771088ms
+zkevm-local-l1-network  | INFO [01-17|08:19:42.235] Starting work on payload                 id=0x021464ed982f2495
+zkevm-local-l1-network  | INFO [01-17|08:19:42.235] Updated payload                          id=0x021464ed982f2495 number=55 hash=f3ecb2..d8e493 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="80.731µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:42.235] Stopping work on payload                 id=0x021464ed982f2495 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:42.245] Imported new potential chain segment     number=55 hash=f3ecb2..d8e493 blocks=1 txs=0 mgas=0.000 elapsed=9.946ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:42.255] Chain head was updated                   number=55 hash=f3ecb2..d8e493 root=0c2bee..e13d07 elapsed=9.826702ms
+zkevm-local-l1-network  | INFO [01-17|08:19:43.284] Starting work on payload                 id=0x02bdba31f8aa213c
+zkevm-local-l1-network  | INFO [01-17|08:19:43.284] Updated payload                          id=0x02bdba31f8aa213c number=56 hash=321ef5..526e51 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="45.398µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:43.284] Stopping work on payload                 id=0x02bdba31f8aa213c reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:43.294] Imported new potential chain segment     number=56 hash=321ef5..526e51 blocks=1 txs=0 mgas=0.000 elapsed=9.696ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:43.303] Chain head was updated                   number=56 hash=321ef5..526e51 root=0c2bee..e13d07 elapsed=9.4699ms
+zkevm-local-l1-network  | INFO [01-17|08:19:44.333] Starting work on payload                 id=0x02139894b23f86b8
+zkevm-local-l1-network  | INFO [01-17|08:19:44.333] Updated payload                          id=0x02139894b23f86b8 number=57 hash=8df916..741537 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="76.613µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:44.334] Stopping work on payload                 id=0x02139894b23f86b8 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:44.343] Imported new potential chain segment     number=57 hash=8df916..741537 blocks=1 txs=0 mgas=0.000 elapsed=9.657ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:44.353] Chain head was updated                   number=57 hash=8df916..741537 root=0c2bee..e13d07 elapsed=9.713024ms
+zkevm-local-l1-network  | INFO [01-17|08:19:45.382] Starting work on payload                 id=0x02dfc79f54101249
+zkevm-local-l1-network  | INFO [01-17|08:19:45.383] Updated payload                          id=0x02dfc79f54101249 number=58 hash=d84696..53d828 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="55.112µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:45.383] Stopping work on payload                 id=0x02dfc79f54101249 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:45.392] Imported new potential chain segment     number=58 hash=d84696..53d828 blocks=1 txs=0 mgas=0.000 elapsed=9.548ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:45.402] Chain head was updated                   number=58 hash=d84696..53d828 root=0c2bee..e13d07 elapsed=9.902369ms
+zkevm-local-l1-network  | INFO [01-17|08:19:46.431] Starting work on payload                 id=0x028053f54302ee53
+zkevm-local-l1-network  | INFO [01-17|08:19:46.432] Updated payload                          id=0x028053f54302ee53 number=59 hash=2de679..18febd txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="66.776µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:46.432] Stopping work on payload                 id=0x028053f54302ee53 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:46.441] Imported new potential chain segment     number=59 hash=2de679..18febd blocks=1 txs=0 mgas=0.000 elapsed=9.778ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:46.451] Chain head was updated                   number=59 hash=2de679..18febd root=0c2bee..e13d07 elapsed=9.736648ms
+zkevm-local-l1-network  | INFO [01-17|08:19:47.479] Starting work on payload                 id=0x02092dc886cf0f4f
+zkevm-local-l1-network  | INFO [01-17|08:19:47.480] Updated payload                          id=0x02092dc886cf0f4f number=60 hash=9161c6..acc8ba txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="71.447µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:47.480] Stopping work on payload                 id=0x02092dc886cf0f4f reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:47.489] Imported new potential chain segment     number=60 hash=9161c6..acc8ba blocks=1 txs=0 mgas=0.000 elapsed=9.158ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:47.498] Chain head was updated                   number=60 hash=9161c6..acc8ba root=0c2bee..e13d07 elapsed=9.222881ms
+zkevm-local-l1-network  | INFO [01-17|08:19:48.527] Starting work on payload                 id=0x025be0e89e7d3216
+zkevm-local-l1-network  | INFO [01-17|08:19:48.528] Updated payload                          id=0x025be0e89e7d3216 number=61 hash=9766dc..037119 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="75.044µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:48.528] Stopping work on payload                 id=0x025be0e89e7d3216 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:48.538] Imported new potential chain segment     number=61 hash=9766dc..037119 blocks=1 txs=0 mgas=0.000 elapsed=9.944ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:48.547] Chain head was updated                   number=61 hash=9766dc..037119 root=0c2bee..e13d07 elapsed=9.568451ms
+zkevm-local-l1-network  | INFO [01-17|08:19:49.575] Starting work on payload                 id=0x02bedabda6147196
+zkevm-local-l1-network  | INFO [01-17|08:19:49.575] Updated payload                          id=0x02bedabda6147196 number=62 hash=90c335..40691e txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="45.285µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:49.575] Stopping work on payload                 id=0x02bedabda6147196 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:49.585] Imported new potential chain segment     number=62 hash=90c335..40691e blocks=1 txs=0 mgas=0.000 elapsed=9.372ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:49.594] Chain head was updated                   number=62 hash=90c335..40691e root=0c2bee..e13d07 elapsed=9.280307ms
+zkevm-local-l1-network  | INFO [01-17|08:19:50.622] Starting work on payload                 id=0x027077662adb05d4
+zkevm-local-l1-network  | INFO [01-17|08:19:50.622] Updated payload                          id=0x027077662adb05d4 number=63 hash=0697d8..3e5234 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="60.802µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:50.622] Stopping work on payload                 id=0x027077662adb05d4 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:50.633] Imported new potential chain segment     number=63 hash=0697d8..3e5234 blocks=1 txs=0 mgas=0.000 elapsed=10.165ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:50.642] Chain head was updated                   number=63 hash=0697d8..3e5234 root=0c2bee..e13d07 elapsed=9.310399ms
+zkevm-local-l1-network  | INFO [01-17|08:19:51.671] Starting work on payload                 id=0x0293b6ef37eb589d
+zkevm-local-l1-network  | INFO [01-17|08:19:51.671] Updated payload                          id=0x0293b6ef37eb589d number=64 hash=f52dad..87db10 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="60.872µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:51.671] Stopping work on payload                 id=0x0293b6ef37eb589d reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:51.681] Imported new potential chain segment     number=64 hash=f52dad..87db10 blocks=1 txs=0 mgas=0.000 elapsed=9.673ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:51.690] Chain head was updated                   number=64 hash=f52dad..87db10 root=0c2bee..e13d07 elapsed=9.461457ms
+zkevm-local-l1-network  | INFO [01-17|08:19:52.720] Starting work on payload                 id=0x029a11b48856dec0
+zkevm-local-l1-network  | INFO [01-17|08:19:52.720] Updated payload                          id=0x029a11b48856dec0 number=65 hash=14fd36..e8efb5 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="67.186µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:52.720] Stopping work on payload                 id=0x029a11b48856dec0 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:52.730] Imported new potential chain segment     number=65 hash=14fd36..e8efb5 blocks=1 txs=0 mgas=0.000 elapsed=9.820ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:52.739] Chain head was updated                   number=65 hash=14fd36..e8efb5 root=0c2bee..e13d07 elapsed=9.261519ms
+zkevm-local-l1-network  | INFO [01-17|08:19:53.768] Starting work on payload                 id=0x0281e4e9baab66b0
+zkevm-local-l1-network  | INFO [01-17|08:19:53.769] Updated payload                          id=0x0281e4e9baab66b0 number=66 hash=009f39..661094 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="75.537µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:53.769] Stopping work on payload                 id=0x0281e4e9baab66b0 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:53.779] Imported new potential chain segment     number=66 hash=009f39..661094 blocks=1 txs=0 mgas=0.000 elapsed=9.873ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:53.788] Chain head was updated                   number=66 hash=009f39..661094 root=0c2bee..e13d07 elapsed=9.364925ms
+zkevm-local-l1-network  | INFO [01-17|08:19:54.817] Starting work on payload                 id=0x02f5c03f0cd3e4ad
+zkevm-local-l1-network  | INFO [01-17|08:19:54.817] Updated payload                          id=0x02f5c03f0cd3e4ad number=67 hash=35e821..3d2044 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="48.692µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:54.817] Stopping work on payload                 id=0x02f5c03f0cd3e4ad reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:54.827] Imported new potential chain segment     number=67 hash=35e821..3d2044 blocks=1 txs=0 mgas=0.000 elapsed=10.191ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:54.839] Chain head was updated                   number=67 hash=35e821..3d2044 root=0c2bee..e13d07 elapsed=11.404498ms
+zkevm-local-l1-network  | INFO [01-17|08:19:55.868] Starting work on payload                 id=0x0270ac8b81d4a704
+zkevm-local-l1-network  | INFO [01-17|08:19:55.868] Updated payload                          id=0x0270ac8b81d4a704 number=68 hash=bc6082..b91397 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="55.889µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:55.868] Stopping work on payload                 id=0x0270ac8b81d4a704 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:55.878] Imported new potential chain segment     number=68 hash=bc6082..b91397 blocks=1 txs=0 mgas=0.000 elapsed=9.888ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:55.888] Chain head was updated                   number=68 hash=bc6082..b91397 root=0c2bee..e13d07 elapsed=9.216187ms
+zkevm-local-l1-network  | INFO [01-17|08:19:56.917] Starting work on payload                 id=0x020125fb09a4bcb8
+zkevm-local-l1-network  | INFO [01-17|08:19:56.918] Updated payload                          id=0x020125fb09a4bcb8 number=69 hash=8566d4..cb5471 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="264.242µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:56.918] Stopping work on payload                 id=0x020125fb09a4bcb8 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:56.929] Imported new potential chain segment     number=69 hash=8566d4..cb5471 blocks=1 txs=0 mgas=0.000 elapsed=10.251ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:56.938] Chain head was updated                   number=69 hash=8566d4..cb5471 root=0c2bee..e13d07 elapsed=9.226889ms
+zkevm-local-l1-network  | INFO [01-17|08:19:57.958] Starting work on payload                 id=0x02610507366ff56f
+zkevm-local-l1-network  | INFO [01-17|08:19:57.958] Updated payload                          id=0x02610507366ff56f number=70 hash=7eb054..f2c9c9 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="16.898µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:57.958] Stopping work on payload                 id=0x02610507366ff56f reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:57.967] Imported new potential chain segment     number=70 hash=7eb054..f2c9c9 blocks=1 txs=0 mgas=0.000 elapsed=9.327ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:57.976] Chain head was updated                   number=70 hash=7eb054..f2c9c9 root=0c2bee..e13d07 elapsed=9.256664ms
+zkevm-local-l1-network  | INFO [01-17|08:19:59.006] Starting work on payload                 id=0x02458ccbeed1c897
+zkevm-local-l1-network  | INFO [01-17|08:19:59.006] Updated payload                          id=0x02458ccbeed1c897 number=71 hash=45c88c..f25642 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="69.299µs"
+zkevm-local-l1-network  | INFO [01-17|08:19:59.006] Stopping work on payload                 id=0x02458ccbeed1c897 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:19:59.016] Imported new potential chain segment     number=71 hash=45c88c..f25642 blocks=1 txs=0 mgas=0.000 elapsed=10.227ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:19:59.026] Chain head was updated                   number=71 hash=45c88c..f25642 root=0c2bee..e13d07 elapsed=9.613989ms
+zkevm-local-l1-network  | INFO [01-17|08:20:00.047] Starting work on payload                 id=0x0210347db3c12653
+zkevm-local-l1-network  | INFO [01-17|08:20:00.048] Updated payload                          id=0x0210347db3c12653 number=72 hash=9fa214..3eba11 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="68.457µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:00.048] Stopping work on payload                 id=0x0210347db3c12653 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:00.057] Imported new potential chain segment     number=72 hash=9fa214..3eba11 blocks=1 txs=0 mgas=0.000 elapsed=9.653ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:00.067] Chain head was updated                   number=72 hash=9fa214..3eba11 root=0c2bee..e13d07 elapsed=9.372909ms
+zkevm-local-l1-network  | INFO [01-17|08:20:01.095] Starting work on payload                 id=0x022c7ca1a11ec11f
+zkevm-local-l1-network  | INFO [01-17|08:20:01.095] Updated payload                          id=0x022c7ca1a11ec11f number=73 hash=94c62b..f83f95 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="50.292µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:01.095] Stopping work on payload                 id=0x022c7ca1a11ec11f reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:01.104] Imported new potential chain segment     number=73 hash=94c62b..f83f95 blocks=1 txs=0 mgas=0.000 elapsed=9.375ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:01.114] Chain head was updated                   number=73 hash=94c62b..f83f95 root=0c2bee..e13d07 elapsed=9.348587ms
+zkevm-local-l1-network  | INFO [01-17|08:20:02.143] Starting work on payload                 id=0x029e1ad34bdccf8d
+zkevm-local-l1-network  | INFO [01-17|08:20:02.143] Updated payload                          id=0x029e1ad34bdccf8d number=74 hash=58b029..442e4c txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="85.572µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:02.144] Stopping work on payload                 id=0x029e1ad34bdccf8d reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:02.154] Imported new potential chain segment     number=74 hash=58b029..442e4c blocks=1 txs=0 mgas=0.000 elapsed=10.215ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:02.163] Chain head was updated                   number=74 hash=58b029..442e4c root=0c2bee..e13d07 elapsed=9.281139ms
+zkevm-local-l1-network  | INFO [01-17|08:20:03.192] Starting work on payload                 id=0x028bae749d816401
+zkevm-local-l1-network  | INFO [01-17|08:20:03.192] Updated payload                          id=0x028bae749d816401 number=75 hash=c57af2..d51fa8 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="94.499µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:03.192] Stopping work on payload                 id=0x028bae749d816401 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:03.203] Imported new potential chain segment     number=75 hash=c57af2..d51fa8 blocks=1 txs=0 mgas=0.000 elapsed=10.053ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:03.212] Chain head was updated                   number=75 hash=c57af2..d51fa8 root=0c2bee..e13d07 elapsed=9.710814ms
+zkevm-local-l1-network  | INFO [01-17|08:20:04.242] Starting work on payload                 id=0x02938dd3ce37dbca
+zkevm-local-l1-network  | INFO [01-17|08:20:04.242] Updated payload                          id=0x02938dd3ce37dbca number=76 hash=bf25b3..67c6da txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="91.956µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:04.243] Stopping work on payload                 id=0x02938dd3ce37dbca reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:04.253] Imported new potential chain segment     number=76 hash=bf25b3..67c6da blocks=1 txs=0 mgas=0.000 elapsed=10.005ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:04.263] Chain head was updated                   number=76 hash=bf25b3..67c6da root=0c2bee..e13d07 elapsed=10.098237ms
+zkevm-local-l1-network  | INFO [01-17|08:20:05.293] Starting work on payload                 id=0x0208ecc0ca17067b
+zkevm-local-l1-network  | INFO [01-17|08:20:05.293] Updated payload                          id=0x0208ecc0ca17067b number=77 hash=d39b7e..dbc919 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="82.663µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:05.293] Stopping work on payload                 id=0x0208ecc0ca17067b reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:05.303] Imported new potential chain segment     number=77 hash=d39b7e..dbc919 blocks=1 txs=0 mgas=0.000 elapsed=9.860ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:05.312] Chain head was updated                   number=77 hash=d39b7e..dbc919 root=0c2bee..e13d07 elapsed=9.321476ms
+zkevm-local-l1-network  | INFO [01-17|08:20:06.341] Starting work on payload                 id=0x02311aa34fb6a98f
+zkevm-local-l1-network  | INFO [01-17|08:20:06.342] Updated payload                          id=0x02311aa34fb6a98f number=78 hash=e5621d..ecd1c5 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="87.602µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:06.342] Stopping work on payload                 id=0x02311aa34fb6a98f reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:06.352] Imported new potential chain segment     number=78 hash=e5621d..ecd1c5 blocks=1 txs=0 mgas=0.000 elapsed=9.771ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:06.361] Chain head was updated                   number=78 hash=e5621d..ecd1c5 root=0c2bee..e13d07 elapsed=9.548118ms
+zkevm-local-l1-network  | INFO [01-17|08:20:07.390] Starting work on payload                 id=0x02f40d71a743f8f0
+zkevm-local-l1-network  | INFO [01-17|08:20:07.390] Updated payload                          id=0x02f40d71a743f8f0 number=79 hash=836a96..9594b4 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="61.105µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:07.390] Stopping work on payload                 id=0x02f40d71a743f8f0 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:07.400] Imported new potential chain segment     number=79 hash=836a96..9594b4 blocks=1 txs=0 mgas=0.000 elapsed=9.704ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:07.409] Chain head was updated                   number=79 hash=836a96..9594b4 root=0c2bee..e13d07 elapsed=9.45607ms
+zkevm-local-l1-network  | INFO [01-17|08:20:08.438] Starting work on payload                 id=0x02ccabe560e2ff8b
+zkevm-local-l1-network  | INFO [01-17|08:20:08.438] Updated payload                          id=0x02ccabe560e2ff8b number=80 hash=38d6a9..6f385c txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="49.805µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:08.438] Stopping work on payload                 id=0x02ccabe560e2ff8b reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:08.448] Imported new potential chain segment     number=80 hash=38d6a9..6f385c blocks=1 txs=0 mgas=0.000 elapsed=9.609ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:08.457] Chain head was updated                   number=80 hash=38d6a9..6f385c root=0c2bee..e13d07 elapsed=9.643974ms
+zkevm-local-l1-network  | INFO [01-17|08:20:09.487] Starting work on payload                 id=0x023c50e3091f34a5
+zkevm-local-l1-network  | INFO [01-17|08:20:09.487] Updated payload                          id=0x023c50e3091f34a5 number=81 hash=d01472..650f18 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="77.876µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:09.487] Stopping work on payload                 id=0x023c50e3091f34a5 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:09.497] Imported new potential chain segment     number=81 hash=d01472..650f18 blocks=1 txs=0 mgas=0.000 elapsed=9.948ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:09.507] Chain head was updated                   number=81 hash=d01472..650f18 root=0c2bee..e13d07 elapsed=9.417143ms
+zkevm-local-l1-network  | INFO [01-17|08:20:10.535] Starting work on payload                 id=0x02c3590829a33d64
+zkevm-local-l1-network  | INFO [01-17|08:20:10.536] Updated payload                          id=0x02c3590829a33d64 number=82 hash=fe84e8..0e55cb txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="61.311µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:10.536] Stopping work on payload                 id=0x02c3590829a33d64 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:10.546] Imported new potential chain segment     number=82 hash=fe84e8..0e55cb blocks=1 txs=0 mgas=0.000 elapsed=10.043ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:10.556] Chain head was updated                   number=82 hash=fe84e8..0e55cb root=0c2bee..e13d07 elapsed=9.79956ms
+zkevm-local-l1-network  | INFO [01-17|08:20:11.585] Starting work on payload                 id=0x023b601b23001db8
+zkevm-local-l1-network  | INFO [01-17|08:20:11.585] Updated payload                          id=0x023b601b23001db8 number=83 hash=a70f46..fa7d42 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="63.445µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:11.585] Stopping work on payload                 id=0x023b601b23001db8 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:11.595] Imported new potential chain segment     number=83 hash=a70f46..fa7d42 blocks=1 txs=0 mgas=0.000 elapsed=9.828ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:11.605] Chain head was updated                   number=83 hash=a70f46..fa7d42 root=0c2bee..e13d07 elapsed=9.664042ms
+zkevm-local-l1-network  | INFO [01-17|08:20:12.634] Starting work on payload                 id=0x02a022d3950d7912
+zkevm-local-l1-network  | INFO [01-17|08:20:12.634] Updated payload                          id=0x02a022d3950d7912 number=84 hash=37e681..8aa0f7 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="48.941µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:12.634] Stopping work on payload                 id=0x02a022d3950d7912 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:12.645] Imported new potential chain segment     number=84 hash=37e681..8aa0f7 blocks=1 txs=0 mgas=0.000 elapsed=10.125ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:12.655] Chain head was updated                   number=84 hash=37e681..8aa0f7 root=0c2bee..e13d07 elapsed=10.050765ms
+zkevm-local-l1-network  | INFO [01-17|08:20:13.685] Starting work on payload                 id=0x024804539e3e2c6b
+zkevm-local-l1-network  | INFO [01-17|08:20:13.685] Updated payload                          id=0x024804539e3e2c6b number=85 hash=ce07dc..056830 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="55.388µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:13.685] Stopping work on payload                 id=0x024804539e3e2c6b reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:13.695] Imported new potential chain segment     number=85 hash=ce07dc..056830 blocks=1 txs=0 mgas=0.000 elapsed=10.022ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:13.705] Chain head was updated                   number=85 hash=ce07dc..056830 root=0c2bee..e13d07 elapsed=9.820022ms
+zkevm-local-l1-network  | INFO [01-17|08:20:14.734] Starting work on payload                 id=0x02139cd8dc1313fd
+zkevm-local-l1-network  | INFO [01-17|08:20:14.734] Updated payload                          id=0x02139cd8dc1313fd number=86 hash=0f8331..5df94e txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="52.046µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:14.734] Stopping work on payload                 id=0x02139cd8dc1313fd reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:14.744] Imported new potential chain segment     number=86 hash=0f8331..5df94e blocks=1 txs=0 mgas=0.000 elapsed=9.815ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:14.754] Chain head was updated                   number=86 hash=0f8331..5df94e root=0c2bee..e13d07 elapsed=9.771962ms
+zkevm-local-l1-network  | INFO [01-17|08:20:15.784] Starting work on payload                 id=0x0299fc9ca778cf2f
+zkevm-local-l1-network  | INFO [01-17|08:20:15.784] Updated payload                          id=0x0299fc9ca778cf2f number=87 hash=1b7a9a..3e09b2 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="58.358µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:15.784] Stopping work on payload                 id=0x0299fc9ca778cf2f reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:15.795] Imported new potential chain segment     number=87 hash=1b7a9a..3e09b2 blocks=1 txs=0 mgas=0.000 elapsed=10.282ms    mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:15.805] Chain head was updated                   number=87 hash=1b7a9a..3e09b2 root=0c2bee..e13d07 elapsed=9.581852ms
+zkevm-local-l1-network  | INFO [01-17|08:20:16.826] Starting work on payload                 id=0x0287734c2385593f
+zkevm-local-l1-network  | INFO [01-17|08:20:16.826] Updated payload                          id=0x0287734c2385593f number=88 hash=81b59e..22ee8d txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="63.678µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:16.826] Stopping work on payload                 id=0x0287734c2385593f reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:16.836] Imported new potential chain segment     number=88 hash=81b59e..22ee8d blocks=1 txs=0 mgas=0.000 elapsed=9.800ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:16.846] Chain head was updated                   number=88 hash=81b59e..22ee8d root=0c2bee..e13d07 elapsed=10.090316ms
+zkevm-local-l1-network  | INFO [01-17|08:20:17.875] Starting work on payload                 id=0x02923874180a4362
+zkevm-local-l1-network  | INFO [01-17|08:20:17.875] Updated payload                          id=0x02923874180a4362 number=89 hash=ff6d05..6eb9f2 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="59.286µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:17.875] Stopping work on payload                 id=0x02923874180a4362 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:17.885] Imported new potential chain segment     number=89 hash=ff6d05..6eb9f2 blocks=1 txs=0 mgas=0.000 elapsed=9.918ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:17.895] Chain head was updated                   number=89 hash=ff6d05..6eb9f2 root=0c2bee..e13d07 elapsed=9.793651ms
+zkevm-local-l1-network  | INFO [01-17|08:20:18.924] Starting work on payload                 id=0x029c24b03ef9f0eb
+zkevm-local-l1-network  | INFO [01-17|08:20:18.924] Updated payload                          id=0x029c24b03ef9f0eb number=90 hash=113b25..27fe8f txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="40.519µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:18.925] Stopping work on payload                 id=0x029c24b03ef9f0eb reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:18.934] Imported new potential chain segment     number=90 hash=113b25..27fe8f blocks=1 txs=0 mgas=0.000 elapsed=9.614ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:18.944] Chain head was updated                   number=90 hash=113b25..27fe8f root=0c2bee..e13d07 elapsed=9.512391ms
+zkevm-local-l1-network  | INFO [01-17|08:20:19.963] Starting work on payload                 id=0x029651b7e1d02038
+zkevm-local-l1-network  | INFO [01-17|08:20:19.963] Updated payload                          id=0x029651b7e1d02038 number=91 hash=fc4755..3fd673 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="13.165µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:19.963] Stopping work on payload                 id=0x029651b7e1d02038 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:19.972] Imported new potential chain segment     number=91 hash=fc4755..3fd673 blocks=1 txs=0 mgas=0.000 elapsed=9.258ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:19.981] Chain head was updated                   number=91 hash=fc4755..3fd673 root=0c2bee..e13d07 elapsed=9.092315ms
+zkevm-local-l1-network  | INFO [01-17|08:20:21.009] Starting work on payload                 id=0x020c14815c4e3f60
+zkevm-local-l1-network  | INFO [01-17|08:20:21.009] Updated payload                          id=0x020c14815c4e3f60 number=92 hash=6f1224..beb1de txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="42.89µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:21.010] Stopping work on payload                 id=0x020c14815c4e3f60 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:21.019] Imported new potential chain segment     number=92 hash=6f1224..beb1de blocks=1 txs=0 mgas=0.000 elapsed=9.243ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:21.028] Chain head was updated                   number=92 hash=6f1224..beb1de root=0c2bee..e13d07 elapsed=9.060129ms
+zkevm-local-l1-network  | INFO [01-17|08:20:22.047] Starting work on payload                 id=0x02a59ae416e3685d
+zkevm-local-l1-network  | INFO [01-17|08:20:22.047] Updated payload                          id=0x02a59ae416e3685d number=93 hash=b489b4..7b34f2 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="16.352µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:22.047] Stopping work on payload                 id=0x02a59ae416e3685d reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:22.056] Imported new potential chain segment     number=93 hash=b489b4..7b34f2 blocks=1 txs=0 mgas=0.000 elapsed=8.981ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:22.065] Chain head was updated                   number=93 hash=b489b4..7b34f2 root=0c2bee..e13d07 elapsed=8.874729ms
+zkevm-local-l1-network  | INFO [01-17|08:20:23.092] Starting work on payload                 id=0x02fa4d992acb8a5c
+zkevm-local-l1-network  | INFO [01-17|08:20:23.092] Updated payload                          id=0x02fa4d992acb8a5c number=94 hash=ec0087..b381be txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="11.881µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:23.092] Stopping work on payload                 id=0x02fa4d992acb8a5c reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:23.101] Imported new potential chain segment     number=94 hash=ec0087..b381be blocks=1 txs=0 mgas=0.000 elapsed=8.815ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:23.110] Chain head was updated                   number=94 hash=ec0087..b381be root=0c2bee..e13d07 elapsed=9.386237ms
+zkevm-local-l1-network  | INFO [01-17|08:20:24.138] Starting work on payload                 id=0x026b6c9fb63e94e2
+zkevm-local-l1-network  | INFO [01-17|08:20:24.138] Updated payload                          id=0x026b6c9fb63e94e2 number=95 hash=4ddf77..296c56 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="14.07µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:24.138] Stopping work on payload                 id=0x026b6c9fb63e94e2 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:24.147] Imported new potential chain segment     number=95 hash=4ddf77..296c56 blocks=1 txs=0 mgas=0.000 elapsed=8.917ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:24.156] Chain head was updated                   number=95 hash=4ddf77..296c56 root=0c2bee..e13d07 elapsed=8.924603ms
+zkevm-local-l1-network  | INFO [01-17|08:20:25.182] Starting work on payload                 id=0x02f089d3b28463c0
+zkevm-local-l1-network  | INFO [01-17|08:20:25.182] Updated payload                          id=0x02f089d3b28463c0 number=96 hash=9449e9..2db0ac txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="14.494µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:25.182] Stopping work on payload                 id=0x02f089d3b28463c0 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:25.191] Imported new potential chain segment     number=96 hash=9449e9..2db0ac blocks=1 txs=0 mgas=0.000 elapsed=9.177ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:25.201] Chain head was updated                   number=96 hash=9449e9..2db0ac root=0c2bee..e13d07 elapsed=9.619497ms
+zkevm-local-l1-network  | INFO [01-17|08:20:26.228] Starting work on payload                 id=0x0245c678273078e3
+zkevm-local-l1-network  | INFO [01-17|08:20:26.228] Updated payload                          id=0x0245c678273078e3 number=97 hash=820735..c2de85 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="19.74µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:26.228] Stopping work on payload                 id=0x0245c678273078e3 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:26.237] Imported new potential chain segment     number=97 hash=820735..c2de85 blocks=1 txs=0 mgas=0.000 elapsed=8.642ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:26.245] Chain head was updated                   number=97 hash=820735..c2de85 root=0c2bee..e13d07 elapsed=8.517027ms
+zkevm-local-l1-network  | INFO [01-17|08:20:27.273] Starting work on payload                 id=0x020f933a84cf7818
+zkevm-local-l1-network  | INFO [01-17|08:20:27.273] Updated payload                          id=0x020f933a84cf7818 number=98 hash=d2e53d..6017e1 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="42.412µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:27.273] Stopping work on payload                 id=0x020f933a84cf7818 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:27.282] Imported new potential chain segment     number=98 hash=d2e53d..6017e1 blocks=1 txs=0 mgas=0.000 elapsed=9.007ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:27.291] Chain head was updated                   number=98 hash=d2e53d..6017e1 root=0c2bee..e13d07 elapsed=9.213716ms
+zkevm-local-l1-network  | INFO [01-17|08:20:28.320] Starting work on payload                 id=0x0267006b1a849eaa
+zkevm-local-l1-network  | INFO [01-17|08:20:28.320] Updated payload                          id=0x0267006b1a849eaa number=99 hash=6905a8..429836 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="54.834µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:28.320] Stopping work on payload                 id=0x0267006b1a849eaa reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:28.330] Imported new potential chain segment     number=99 hash=6905a8..429836 blocks=1 txs=0 mgas=0.000 elapsed=9.817ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:28.340] Chain head was updated                   number=99 hash=6905a8..429836 root=0c2bee..e13d07 elapsed=9.422061ms
+zkevm-local-l1-network  | INFO [01-17|08:20:29.367] Starting work on payload                 id=0x02096866c6df3ce0
+zkevm-local-l1-network  | INFO [01-17|08:20:29.367] Updated payload                          id=0x02096866c6df3ce0 number=100 hash=345af2..620637 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="19.464µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:29.367] Stopping work on payload                 id=0x02096866c6df3ce0 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:29.376] Imported new potential chain segment     number=100 hash=345af2..620637 blocks=1 txs=0 mgas=0.000 elapsed=9.181ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:29.385] Chain head was updated                   number=100 hash=345af2..620637 root=0c2bee..e13d07 elapsed=9.154118ms
+zkevm-local-l1-network  | INFO [01-17|08:20:30.422] Starting work on payload                 id=0x0203224ed761ef2c
+zkevm-local-l1-network  | INFO [01-17|08:20:30.422] Updated payload                          id=0x0203224ed761ef2c number=101 hash=4cf3ae..5b6f98 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="14.443µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:30.422] Stopping work on payload                 id=0x0203224ed761ef2c reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:30.431] Imported new potential chain segment     number=101 hash=4cf3ae..5b6f98 blocks=1 txs=0 mgas=0.000 elapsed=9.331ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:30.441] Chain head was updated                   number=101 hash=4cf3ae..5b6f98 root=0c2bee..e13d07 elapsed=9.438206ms
+zkevm-local-l1-network  | INFO [01-17|08:20:31.469] Starting work on payload                 id=0x021c09182edfcbb0
+zkevm-local-l1-network  | INFO [01-17|08:20:31.469] Updated payload                          id=0x021c09182edfcbb0 number=102 hash=169b01..4e5d7b txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="135.314µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:31.469] Stopping work on payload                 id=0x021c09182edfcbb0 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:31.479] Imported new potential chain segment     number=102 hash=169b01..4e5d7b blocks=1 txs=0 mgas=0.000 elapsed=9.700ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:31.493] Chain head was updated                   number=102 hash=169b01..4e5d7b root=0c2bee..e13d07 elapsed=13.398435ms
+zkevm-local-l1-network  | INFO [01-17|08:20:32.520] Starting work on payload                 id=0x02646fb632616e2a
+zkevm-local-l1-network  | INFO [01-17|08:20:32.520] Updated payload                          id=0x02646fb632616e2a number=103 hash=fc2007..6dcb5d txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="14.897µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:32.520] Stopping work on payload                 id=0x02646fb632616e2a reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:32.529] Imported new potential chain segment     number=103 hash=fc2007..6dcb5d blocks=1 txs=0 mgas=0.000 elapsed=9.093ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:32.538] Chain head was updated                   number=103 hash=fc2007..6dcb5d root=0c2bee..e13d07 elapsed=8.809395ms
+zkevm-local-l1-network  | INFO [01-17|08:20:33.565] Starting work on payload                 id=0x02ba426a674c781c
+zkevm-local-l1-network  | INFO [01-17|08:20:33.565] Updated payload                          id=0x02ba426a674c781c number=104 hash=d86921..8970fc txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="26.317µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:33.565] Stopping work on payload                 id=0x02ba426a674c781c reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:33.574] Imported new potential chain segment     number=104 hash=d86921..8970fc blocks=1 txs=0 mgas=0.000 elapsed=8.939ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:33.583] Chain head was updated                   number=104 hash=d86921..8970fc root=0c2bee..e13d07 elapsed=9.048714ms
+zkevm-local-l1-network  | INFO [01-17|08:20:34.618] Starting work on payload                 id=0x02128349b55087c3
+zkevm-local-l1-network  | INFO [01-17|08:20:34.618] Updated payload                          id=0x02128349b55087c3 number=105 hash=cd85ee..571aa2 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="14.719µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:34.618] Stopping work on payload                 id=0x02128349b55087c3 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:34.627] Imported new potential chain segment     number=105 hash=cd85ee..571aa2 blocks=1 txs=0 mgas=0.000 elapsed=8.944ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:34.636] Chain head was updated                   number=105 hash=cd85ee..571aa2 root=0c2bee..e13d07 elapsed=9.04479ms
+zkevm-local-l1-network  | INFO [01-17|08:20:35.663] Starting work on payload                 id=0x0293475e6ed40e0d
+zkevm-local-l1-network  | INFO [01-17|08:20:35.663] Updated payload                          id=0x0293475e6ed40e0d number=106 hash=8efa41..1fbe86 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="51.273µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:35.663] Stopping work on payload                 id=0x0293475e6ed40e0d reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:35.673] Imported new potential chain segment     number=106 hash=8efa41..1fbe86 blocks=1 txs=0 mgas=0.000 elapsed=9.445ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:35.682] Chain head was updated                   number=106 hash=8efa41..1fbe86 root=0c2bee..e13d07 elapsed=9.200303ms
+zkevm-local-l1-network  | INFO [01-17|08:20:36.710] Starting work on payload                 id=0x025140b51f717937
+zkevm-local-l1-network  | INFO [01-17|08:20:36.710] Updated payload                          id=0x025140b51f717937 number=107 hash=c7c11f..3157c8 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="36.908µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:36.710] Stopping work on payload                 id=0x025140b51f717937 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:36.719] Imported new potential chain segment     number=107 hash=c7c11f..3157c8 blocks=1 txs=0 mgas=0.000 elapsed=9.183ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:36.728] Chain head was updated                   number=107 hash=c7c11f..3157c8 root=0c2bee..e13d07 elapsed=8.909813ms
+zkevm-local-l1-network  | INFO [01-17|08:20:37.756] Starting work on payload                 id=0x027f315e5ef329a6
+zkevm-local-l1-network  | INFO [01-17|08:20:37.756] Updated payload                          id=0x027f315e5ef329a6 number=108 hash=5f71b9..b0ea05 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="44.743µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:37.756] Stopping work on payload                 id=0x027f315e5ef329a6 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:37.765] Imported new potential chain segment     number=108 hash=5f71b9..b0ea05 blocks=1 txs=0 mgas=0.000 elapsed=9.073ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:37.774] Chain head was updated                   number=108 hash=5f71b9..b0ea05 root=0c2bee..e13d07 elapsed=9.168356ms
+zkevm-local-l1-network  | INFO [01-17|08:20:38.802] Starting work on payload                 id=0x0223f0027af0e0c6
+zkevm-local-l1-network  | INFO [01-17|08:20:38.802] Updated payload                          id=0x0223f0027af0e0c6 number=109 hash=ac5f29..2a1cdd txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="29.231µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:38.802] Stopping work on payload                 id=0x0223f0027af0e0c6 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:38.811] Imported new potential chain segment     number=109 hash=ac5f29..2a1cdd blocks=1 txs=0 mgas=0.000 elapsed=8.952ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:38.820] Chain head was updated                   number=109 hash=ac5f29..2a1cdd root=0c2bee..e13d07 elapsed=8.749029ms
+zkevm-local-l1-network  | INFO [01-17|08:20:39.847] Starting work on payload                 id=0x02f896f2428dd144
+zkevm-local-l1-network  | INFO [01-17|08:20:39.847] Updated payload                          id=0x02f896f2428dd144 number=110 hash=702ff3..c8e37c txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="62.528µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:39.848] Stopping work on payload                 id=0x02f896f2428dd144 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:39.857] Imported new potential chain segment     number=110 hash=702ff3..c8e37c blocks=1 txs=0 mgas=0.000 elapsed=9.274ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:39.866] Chain head was updated                   number=110 hash=702ff3..c8e37c root=0c2bee..e13d07 elapsed=9.271025ms
+zkevm-local-l1-network  | INFO [01-17|08:20:40.894] Starting work on payload                 id=0x0287b8ec200cf019
+zkevm-local-l1-network  | INFO [01-17|08:20:40.894] Updated payload                          id=0x0287b8ec200cf019 number=111 hash=42ef49..8f071d txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="148.522µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:40.894] Stopping work on payload                 id=0x0287b8ec200cf019 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:40.904] Imported new potential chain segment     number=111 hash=42ef49..8f071d blocks=1 txs=0 mgas=0.000 elapsed=9.493ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:40.913] Chain head was updated                   number=111 hash=42ef49..8f071d root=0c2bee..e13d07 elapsed=8.896881ms
+zkevm-local-l1-network  | INFO [01-17|08:20:41.940] Starting work on payload                 id=0x0276d6793453bfdb
+zkevm-local-l1-network  | INFO [01-17|08:20:41.941] Updated payload                          id=0x0276d6793453bfdb number=112 hash=014f9e..f1b564 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="58.585µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:41.941] Stopping work on payload                 id=0x0276d6793453bfdb reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:41.950] Imported new potential chain segment     number=112 hash=014f9e..f1b564 blocks=1 txs=0 mgas=0.000 elapsed=9.620ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:41.960] Chain head was updated                   number=112 hash=014f9e..f1b564 root=0c2bee..e13d07 elapsed=9.502631ms
+zkevm-local-l1-network  | INFO [01-17|08:20:42.988] Starting work on payload                 id=0x029a0747e07cda9f
+zkevm-local-l1-network  | INFO [01-17|08:20:42.988] Updated payload                          id=0x029a0747e07cda9f number=113 hash=725a89..dc011a txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="86.27µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:42.989] Stopping work on payload                 id=0x029a0747e07cda9f reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:42.998] Imported new potential chain segment     number=113 hash=725a89..dc011a blocks=1 txs=0 mgas=0.000 elapsed=9.376ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:43.007] Chain head was updated                   number=113 hash=725a89..dc011a root=0c2bee..e13d07 elapsed=8.624554ms
+zkevm-local-l1-network  | INFO [01-17|08:20:44.026] Starting work on payload                 id=0x0263840d39a48b88
+zkevm-local-l1-network  | INFO [01-17|08:20:44.026] Updated payload                          id=0x0263840d39a48b88 number=114 hash=f6a8ca..ba9955 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="46.563µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:44.027] Stopping work on payload                 id=0x0263840d39a48b88 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:44.036] Imported new potential chain segment     number=114 hash=f6a8ca..ba9955 blocks=1 txs=0 mgas=0.000 elapsed=9.260ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:44.045] Chain head was updated                   number=114 hash=f6a8ca..ba9955 root=0c2bee..e13d07 elapsed=9.175015ms
+zkevm-local-l1-network  | INFO [01-17|08:20:45.066] Starting work on payload                 id=0x029b6c3bcab65714
+zkevm-local-l1-network  | INFO [01-17|08:20:45.066] Updated payload                          id=0x029b6c3bcab65714 number=115 hash=0d141d..502fe2 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="53.086µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:45.066] Stopping work on payload                 id=0x029b6c3bcab65714 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:45.075] Imported new potential chain segment     number=115 hash=0d141d..502fe2 blocks=1 txs=0 mgas=0.000 elapsed=9.399ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:45.085] Chain head was updated                   number=115 hash=0d141d..502fe2 root=0c2bee..e13d07 elapsed=9.168495ms
+zkevm-local-l1-network  | INFO [01-17|08:20:46.105] Starting work on payload                 id=0x0203eb49a555dc89
+zkevm-local-l1-network  | INFO [01-17|08:20:46.105] Updated payload                          id=0x0203eb49a555dc89 number=116 hash=4d3990..3cd94b txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="82.166µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:46.105] Stopping work on payload                 id=0x0203eb49a555dc89 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:46.115] Imported new potential chain segment     number=116 hash=4d3990..3cd94b blocks=1 txs=0 mgas=0.000 elapsed=9.613ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:46.125] Chain head was updated                   number=116 hash=4d3990..3cd94b root=0c2bee..e13d07 elapsed=9.466157ms
+zkevm-local-l1-network  | INFO [01-17|08:20:47.145] Starting work on payload                 id=0x02a8fb5e8b3fc755
+zkevm-local-l1-network  | INFO [01-17|08:20:47.145] Updated payload                          id=0x02a8fb5e8b3fc755 number=117 hash=495bb5..990ead txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="72.149µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:47.146] Stopping work on payload                 id=0x02a8fb5e8b3fc755 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:47.155] Imported new potential chain segment     number=117 hash=495bb5..990ead blocks=1 txs=0 mgas=0.000 elapsed=9.488ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:47.164] Chain head was updated                   number=117 hash=495bb5..990ead root=0c2bee..e13d07 elapsed=8.881634ms
+zkevm-local-l1-network  | INFO [01-17|08:20:48.184] Starting work on payload                 id=0x021526c8d7dd99f9
+zkevm-local-l1-network  | INFO [01-17|08:20:48.184] Updated payload                          id=0x021526c8d7dd99f9 number=118 hash=a00413..7c94c4 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="64.819µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:48.184] Stopping work on payload                 id=0x021526c8d7dd99f9 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:48.194] Imported new potential chain segment     number=118 hash=a00413..7c94c4 blocks=1 txs=0 mgas=0.000 elapsed=9.557ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:48.203] Chain head was updated                   number=118 hash=a00413..7c94c4 root=0c2bee..e13d07 elapsed=9.575489ms
+zkevm-local-l1-network  | INFO [01-17|08:20:49.223] Starting work on payload                 id=0x02f77df8a5e7ba0c
+zkevm-local-l1-network  | INFO [01-17|08:20:49.223] Updated payload                          id=0x02f77df8a5e7ba0c number=119 hash=e8d4e3..9ad904 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="15.166µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:49.223] Stopping work on payload                 id=0x02f77df8a5e7ba0c reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:49.232] Imported new potential chain segment     number=119 hash=e8d4e3..9ad904 blocks=1 txs=0 mgas=0.000 elapsed=9.099ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:49.242] Chain head was updated                   number=119 hash=e8d4e3..9ad904 root=0c2bee..e13d07 elapsed=9.225391ms
+zkevm-local-l1-network  | INFO [01-17|08:20:50.270] Starting work on payload                 id=0x025b2d9eefaa206d
+zkevm-local-l1-network  | INFO [01-17|08:20:50.270] Updated payload                          id=0x025b2d9eefaa206d number=120 hash=f37b23..f131f1 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="44.114µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:50.270] Stopping work on payload                 id=0x025b2d9eefaa206d reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:50.280] Imported new potential chain segment     number=120 hash=f37b23..f131f1 blocks=1 txs=0 mgas=0.000 elapsed=9.548ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:50.290] Chain head was updated                   number=120 hash=f37b23..f131f1 root=0c2bee..e13d07 elapsed=9.933772ms
+zkevm-local-l1-network  | INFO [01-17|08:20:51.317] Starting work on payload                 id=0x020a5fb8462f7697
+zkevm-local-l1-network  | INFO [01-17|08:20:51.317] Updated payload                          id=0x020a5fb8462f7697 number=121 hash=253f7c..5435ac txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="21.511µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:51.317] Stopping work on payload                 id=0x020a5fb8462f7697 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:51.326] Imported new potential chain segment     number=121 hash=253f7c..5435ac blocks=1 txs=0 mgas=0.000 elapsed=9.044ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:51.335] Chain head was updated                   number=121 hash=253f7c..5435ac root=0c2bee..e13d07 elapsed=9.133292ms
+zkevm-local-l1-network  | INFO [01-17|08:20:52.363] Starting work on payload                 id=0x020053e0531698fb
+zkevm-local-l1-network  | INFO [01-17|08:20:52.364] Updated payload                          id=0x020053e0531698fb number=122 hash=c212c9..e480d4 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="51.756µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:52.364] Stopping work on payload                 id=0x020053e0531698fb reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:52.373] Imported new potential chain segment     number=122 hash=c212c9..e480d4 blocks=1 txs=0 mgas=0.000 elapsed=9.681ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:52.383] Chain head was updated                   number=122 hash=c212c9..e480d4 root=0c2bee..e13d07 elapsed=9.073784ms
+zkevm-local-l1-network  | INFO [01-17|08:20:53.412] Starting work on payload                 id=0x02f914278e6b9ce1
+zkevm-local-l1-network  | INFO [01-17|08:20:53.412] Updated payload                          id=0x02f914278e6b9ce1 number=123 hash=9c4b5c..fbd690 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="62.529µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:53.412] Stopping work on payload                 id=0x02f914278e6b9ce1 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:53.422] Imported new potential chain segment     number=123 hash=9c4b5c..fbd690 blocks=1 txs=0 mgas=0.000 elapsed=9.695ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:53.432] Chain head was updated                   number=123 hash=9c4b5c..fbd690 root=0c2bee..e13d07 elapsed=9.317408ms
+zkevm-local-l1-network  | INFO [01-17|08:20:54.460] Starting work on payload                 id=0x0226b81dd984c87b
+zkevm-local-l1-network  | INFO [01-17|08:20:54.460] Updated payload                          id=0x0226b81dd984c87b number=124 hash=58063b..6ad4e2 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="70.418µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:54.460] Stopping work on payload                 id=0x0226b81dd984c87b reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:54.469] Imported new potential chain segment     number=124 hash=58063b..6ad4e2 blocks=1 txs=0 mgas=0.000 elapsed=9.049ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:54.479] Chain head was updated                   number=124 hash=58063b..6ad4e2 root=0c2bee..e13d07 elapsed=9.40057ms
+zkevm-local-l1-network  | INFO [01-17|08:20:55.507] Starting work on payload                 id=0x02a3ef8ad5d6b977
+zkevm-local-l1-network  | INFO [01-17|08:20:55.507] Updated payload                          id=0x02a3ef8ad5d6b977 number=125 hash=453781..7d89a0 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="13.144µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:55.507] Stopping work on payload                 id=0x02a3ef8ad5d6b977 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:55.516] Imported new potential chain segment     number=125 hash=453781..7d89a0 blocks=1 txs=0 mgas=0.000 elapsed=8.905ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:55.525] Chain head was updated                   number=125 hash=453781..7d89a0 root=0c2bee..e13d07 elapsed=8.867726ms
+zkevm-local-l1-network  | INFO [01-17|08:20:56.553] Starting work on payload                 id=0x022a7d6eccd25f52
+zkevm-local-l1-network  | INFO [01-17|08:20:56.553] Updated payload                          id=0x022a7d6eccd25f52 number=126 hash=edcad7..bf150f txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="38.909µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:56.553] Stopping work on payload                 id=0x022a7d6eccd25f52 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:56.562] Imported new potential chain segment     number=126 hash=edcad7..bf150f blocks=1 txs=0 mgas=0.000 elapsed=9.553ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:56.571] Chain head was updated                   number=126 hash=edcad7..bf150f root=0c2bee..e13d07 elapsed=8.888992ms
+zkevm-local-l1-network  | INFO [01-17|08:20:57.599] Starting work on payload                 id=0x026c7e56e934cd07
+zkevm-local-l1-network  | INFO [01-17|08:20:57.599] Updated payload                          id=0x026c7e56e934cd07 number=127 hash=c71e99..1b9f21 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="22.684µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:57.599] Stopping work on payload                 id=0x026c7e56e934cd07 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:57.609] Imported new potential chain segment     number=127 hash=c71e99..1b9f21 blocks=1 txs=0 mgas=0.000 elapsed=9.671ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:57.618] Chain head was updated                   number=127 hash=c71e99..1b9f21 root=0c2bee..e13d07 elapsed=9.137087ms
+zkevm-local-l1-network  | INFO [01-17|08:20:58.645] Starting work on payload                 id=0x02899f708dcb6955
+zkevm-local-l1-network  | INFO [01-17|08:20:58.645] Updated payload                          id=0x02899f708dcb6955 number=128 hash=fff903..8d9002 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="14.514µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:58.645] Stopping work on payload                 id=0x02899f708dcb6955 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:58.654] Imported new potential chain segment     number=128 hash=fff903..8d9002 blocks=1 txs=0 mgas=0.000 elapsed=8.743ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:58.663] Chain head was updated                   number=128 hash=fff903..8d9002 root=0c2bee..e13d07 elapsed=8.676891ms
+zkevm-local-l1-network  | INFO [01-17|08:20:59.691] Starting work on payload                 id=0x021a34413b5247da
+zkevm-local-l1-network  | INFO [01-17|08:20:59.692] Updated payload                          id=0x021a34413b5247da number=129 hash=8198e3..11944f txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="47.086µs"
+zkevm-local-l1-network  | INFO [01-17|08:20:59.692] Stopping work on payload                 id=0x021a34413b5247da reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:20:59.701] Imported new potential chain segment     number=129 hash=8198e3..11944f blocks=1 txs=0 mgas=0.000 elapsed=9.759ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:20:59.711] Chain head was updated                   number=129 hash=8198e3..11944f root=0c2bee..e13d07 elapsed=9.431886ms
+zkevm-local-l1-network  | INFO [01-17|08:21:00.738] Starting work on payload                 id=0x02b270d856392acf
+zkevm-local-l1-network  | INFO [01-17|08:21:00.738] Updated payload                          id=0x02b270d856392acf number=130 hash=898a7b..685dd1 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="33.142µs"
+zkevm-local-l1-network  | INFO [01-17|08:21:00.738] Stopping work on payload                 id=0x02b270d856392acf reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:21:00.747] Imported new potential chain segment     number=130 hash=898a7b..685dd1 blocks=1 txs=0 mgas=0.000 elapsed=9.038ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:21:00.756] Chain head was updated                   number=130 hash=898a7b..685dd1 root=0c2bee..e13d07 elapsed=8.915369ms
+zkevm-local-l1-network  | INFO [01-17|08:21:01.785] Starting work on payload                 id=0x02e41525faf63c07
+zkevm-local-l1-network  | INFO [01-17|08:21:01.787] Updated payload                          id=0x02e41525faf63c07 number=131 hash=1fda55..f24851 txs=0 withdrawals=0 gas=0 fees=0 root=0c2bee..e13d07 elapsed="213.476µs"
+zkevm-local-l1-network  | INFO [01-17|08:21:01.787] Stopping work on payload                 id=0x02e41525faf63c07 reason=delivery
+zkevm-local-l1-network  | INFO [01-17|08:21:01.796] Imported new potential chain segment     number=131 hash=1fda55..f24851 blocks=1 txs=0 mgas=0.000 elapsed=9.509ms     mgasps=0.000 triedirty=0.00B
+zkevm-local-l1-network  | INFO [01-17|08:21:01.807] Chain head was updated                   number=131 hash=1fda55..f24851 root=0c2bee..e13d07 elapsed=10.873799ms

@@ -57,7 +57,7 @@ services:
 
   zkevm-node:
     container_name: zkevm-node
-    image: docker.io/library/zkevm-node # hermeznetwork/zkevm-node:v0.6.6
+    image: hermeznetwork/zkevm-node:v0.6.6
     ports:
       - 8123:8123
       - 61090:61090
@@ -122,7 +122,7 @@ services:
 
   zkevm-mock-l1-network:
     container_name: zkevm-local-l1-network
-    image: hermeznetwork/geth-zkevm-contracts:elderberry-fork.9-geth1.13.11 # docker.io/hermeznetwork/geth-zkevm-contracts
+    image: docker.io/hermeznetwork/geth-zkevm-contracts #hermeznetwork/geth-zkevm-contracts:elderberry-fork.9-geth1.13.11 # docker.io/hermeznetwork/geth-zkevm-contracts
     ports:
       - 8545:8545
 
