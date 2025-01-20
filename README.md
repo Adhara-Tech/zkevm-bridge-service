@@ -57,5 +57,5 @@ For more discussions, please head to the [R&D Discord](https://discord.gg/0xPoly
 
 docker-compose logs --no-color > logs.txt
 
-docker inspect --type=image docker.io/hermeznetwork/geth-zkevm-contracts
+docker inspect --type=image adhara.io/hermeznetwork/geth-zkevm-contracts
 docker inspect --type=image docker.io/library/zkevm-node  
